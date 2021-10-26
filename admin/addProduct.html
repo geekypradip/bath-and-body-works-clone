@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add product</title>
+    <style>
+       
+
+        .container{
+            width:60%;
+            margin: auto;
+            /* text-align: center; */
+           
+        }
+        .container>div{
+          margin-top: 20px;
+          width: 100%;
+        }
+        input,select,textarea{
+            width:50%;
+        }
+        input,select{
+            height: 40px;
+        }
+        #logo{
+            width:100%;
+            height: 40px;
+            background: rgba(175, 238, 240, 0.445);
+        }
+        #imgPreview{
+            height:40px;
+        }
+    </style>
+</head>
+<body>
+ 
+         <div class="container">
+        <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17b/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw60420ac0/images/svg-icons/Logos-main.svg?yocs=o_s_" id="logo" alt="Logo">
+        <div>
+            
+            <input type="text" placeholder="Enter product Name" id="name">
+        </div>
+       <div>
+           <select name="category" id="category">
+            <option value="null" >select category</option>
+            <option value="bodycare">BODYCARE</option>
+            <option value="hand_shop_and_sanitizers">hand shop and sanitizers</option>
+            <option value="home_fragrance">home fragrance</option>
+          </select>
+    </div>
+        <div>
+            <select name="sub_category" id="subCategory">
+                <option value="null" >select sub category</option>
+            </select>
+        </div>
+        <div>
+            
+            <input type="text" placeholder="Enter product price" id="price">
+        </div>
+        <div style="display: flex;">
+            
+            <input type="text" placeholder="Enter product Image url" id="poster">
+           <div><button id="imgPreview">Preview</button></div> 
+        </div>
+        <div>
+            
+            <input type="text" placeholder="Enter product quantity/ML" id="quantity">
+        </div>
+        <div>
+            
+          <textarea name="FRAGRANCE" id="fragrance" cols="50" rows="5" placeholder="enter type of fragrance of product"></textarea>
+        </div>
+        <div>
+            
+            <textarea name="overview" id="overview" cols="50" rows="5" placeholder="enter write overview/description of the product"></textarea>
+          </div>
+          <div>
+<button id="submit">Submit</button>
+          </div>
+
+    </div>
+   
+    <script type="module" src="addproducthandle.js"></script>
+</body>
+</html>

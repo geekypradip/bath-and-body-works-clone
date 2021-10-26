@@ -1,15 +1,36 @@
 {
-    "product": [
-      { 
-          "id": 1, 
-          "title": "json-server", 
-          "author": "typicode" 
-        },
-      {
-        "id":2,
-        "title":"json-server",
-        "author":"typicode"
-      }
-    ]
-    
-  }
+  "product": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "vb/net",
+      "category": "bodycare",
+      "subCategory": "Body Lotion",
+      "price": "12",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuRckpp7Cpr61sv_VN2ULGzzXv1TmheuBwA&usqp=CAU",
+      "quantity": "123",
+      "fragment": "assd",
+      "overview": "qweer",
+      "id": 3
+    },
+    {
+      "name": "cvv",
+      "category": "home_fragrance",
+      "subCategory": "Candle Holders & Accessories",
+      "price": "123",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuRckpp7Cpr61sv_VN2ULGzzXv1TmheuBwA&usqp=CAU",
+      "quantity": "12",
+      "fragment": "cvv",
+      "overview": "q22",
+      "id": 4
+    }
+  ]
+}
