@@ -47,7 +47,7 @@ document.getElementById('poster').style.borderBottom="1px solid #000";
 fetch(document.getElementById('poster').value)
 .then((res)=>{
     console.log(res.status)
-    if(res.status>400||res.status<200){img.alt="Image not found!";return}
+    if(res.status>400||res.status<200){img.alt="Image not found!";urlChecker=false;return}
     
 })
 .catch((e)=>{

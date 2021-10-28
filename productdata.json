@@ -31,6 +31,127 @@
       "fragment": "cvv",
       "overview": "q22",
       "id": 4
+    },
+    {
+      "name": "VANILLA BEAN NOEL",
+      "category": "bodycare",
+      "subCategory": "Shower Body Wash",
+      "price": "$13.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwff241a4c/hires/026338403.jpg?sh=471&yocs=o_s_",
+      "quantity": "10 fl oz / 295 mL",
+      "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
+      "overview": "Celebrate the holiday season with this classic Bath & Body Works Christmas favorite! Our dermatologist-tested Shower Gel combines nourishing vitamin E and aloe to create a rich, bubbly lather. Gentle and non-drying, it's the perfect daily cleanser to leave skin feeling fresh and clean!\n",
+      "id": 5
+    },
+    {
+      "name": "TEA TREE PEPPERMINT",
+      "category": "bodycare",
+      "subCategory": " Body Wash & Shower Gel",
+      "price": "$13.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwba165178/hires/026342999.jpg?sh=471&yocs=o_s_",
+      "quantity": "10 fl oz / 295 mL",
+      "fragment": "Inspired by the coolness of the winter season, enhance your aromatherapy routine with this invigorating blend of tea tree and peppermint essential oils.\n",
+      "overview": "Made with aloe and bamboo extract, this nourishing, fast-foaming body wash leaves skin feeling clean, soft and refreshed. Fragranced with natural essential oils and other natural fragrances.\n",
+      "id": 6
+    },
+    {
+      "name": "FRESH BALSAM",
+      "category": "hand_shop_and_sanitizers",
+      "subCategory": "Foaming Soaps",
+      "price": "$8.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1577d2cd/hires/026350724.jpg?sh=471&yocs=o_s_",
+      "quantity": "8.75 fl oz / 259 mL",
+      "fragment": "A fresh-cut Christmas tree blend of woodland balsam, crisp eucalyptus and cedarwood\n",
+      "overview": "Our Gentle Foaming Hand Soap with natural essential oils combines nourishing vitamin E with softening shea extract and aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.\n\n",
+      "id": 7
+    },
+    {
+      "name": "HAPPY THANKSGIVING",
+      "category": "hand_shop_and_sanitizers",
+      "subCategory": "Foaming Soaps",
+      "price": "$22.00",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdac0c3da/hires/026362710.jpg?sh=471&yocs=o_s_",
+      "quantity": "8.75 fl oz / 259 mL Each",
+      "fragment": "Includes Frosted Cranberry, Winter Citrus Wreath, Toasted Vanilla Chai, Sweater Weather and Sparkling Tea Bergamot\n",
+      "overview": "Stock your sink with these inviting, fall-perfect scents in 5 of our Gentle Foaming Hand Soaps with essential oils. They combine nourishing vitamin E with softening shea extract and aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.\n\n\n\n",
+      "id": 8
+    },
+    {
+      "name": "KITCHEN LEMON",
+      "category": "hand_shop_and_sanitizers",
+      "subCategory": "Foaming Soaps",
+      "price": "$7.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9dd757f6/hires/026018134.jpg?sh=471&yocs=o_s_",
+      "quantity": "8.75 fl oz / 259 mL",
+      "fragment": "A fresh blend of zesty lemon, sparkling citrus & Italian bergamot\n",
+      "overview": "Our Gentle Foaming Hand Soap with natural essential oils combines nourishing vitamin E with softening shea extract & aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.\n\n",
+      "id": 9
+    },
+    {
+      "name": "FRESH BALSAM",
+      "category": "home_fragrance",
+      "subCategory": " 3-Wick Candles",
+      "price": "$25.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8b7dce57/hires/026371693.jpg?sh=471&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Woodland Balsam, Crisp Eucalyptus, Fir Branches, Cedarwood with Natural Essential Oils\n",
+      "overview": "Cool and woodsy, this candle's the definition of the great outdoors. Topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\n\n\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed\n",
+      "id": 10
+    },
+    {
+      "name": "CHRISTMAS CIDER",
+      "category": "home_fragrance",
+      "subCategory": " 3-Wick Candles",
+      "price": "$25.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwaa17d7e0/hires/026361445.jpg?sh=471&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 11
+    },
+    {
+      "name": "VANILLA BEAN NOEL",
+      "category": "bodycare",
+      "subCategory": "Body Care Gift Sets",
+      "price": "$9.95",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf13444e6/hires/025140231.jpg?sh=471&yocs=o_s_",
+      "quantity": "NA",
+      "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
+      "overview": "The gift that'll get a happy, healthy round of applause. It includes a PocketBac Hand Sanitizer (1 fl oz) and Hand Cream (1 fl oz) inside a small decorative gift box.\n",
+      "id": 12
+    },
+    {
+      "name": "RESTFUL MOON",
+      "category": "bodycare",
+      "subCategory": " Body Wash & Shower Gel",
+      "price": "$13.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0285f42e/hires/026311410.jpg?sh=471&yocs=o_s_",
+      "quantity": "10 fl oz / 295 mL",
+      "fragment": "Relax and unwind the body and mind with this essential oil blend of patchouli, sandalwood and vanilla\n",
+      "overview": "Made with aloe and bamboo extract, this nourishing, fast-foaming body wash leaves skin feeling clean, soft and refreshed. Fragranced with natural essential oils and other natural fragrances.\n",
+      "id": 13
+    },
+    {
+      "name": "AWAKENING SUN",
+      "category": "bodycare",
+      "subCategory": " Body Wash & Shower Gel",
+      "price": "$13.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf2b0f886/hires/026311409.jpg?sh=471&yocs=o_s_",
+      "quantity": "10 fl oz / 295 mL",
+      "fragment": "Awaken and energize the body and mind with this essential oil blend of bergamot, neroli and cedarwood\n",
+      "overview": "Made with aloe and bamboo extract, this nourishing, fast-foaming body wash leaves skin feeling clean, soft and refreshed. Fragranced with natural essential oils and other natural fragrances.\n",
+      "id": 14
+    },
+    {
+      "name": "VANILLA BEAN NOEL",
+      "category": "bodycare",
+      "subCategory": "Body Lotion",
+      "price": "$13.50",
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw163295a0/hires/026335799.jpg?sh=471&yocs=o_s_",
+      "quantity": "8 fl oz / 236 mL",
+      "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
+      "overview": "Celebrate the holiday season with this classic Bath & Body Works Christmas favorite! Our dermatologist-tested Super Smooth Body Lotion provides 24 hours of nourishing moisture — guaranteed! Infused with shea butter, coconut oil and vitamin E, it absorbs quickly into skin, so it feels noticeably softer after use.\n",
+      "id": 15
     }
   ]
 }
