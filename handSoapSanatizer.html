@@ -5,67 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hand Soap Sanatizer</title>
+    <link rel="stylesheet" href="handSoapSanatizer.css">
 </head>
-<style>
-    *{
-        font-family: Trade Gothic W01 Light,Arial,sans-serif;
-    }
-    h1{
-        font-family: Trade Gothic W01 Light,Arial,sans-serif;
-        font-size: 21px;
-        font-size: 1.3125rem;
-        line-height: 21px;
-        line-height: 1.3125rem;
-        color: #333;
-        font-weight: 400;
-        margin-left: 14%;
-    }
-    #banner {
-        margin-left: 14%;
-    }
-    .breaker{
-        width: 100%;
-        height:50px;
-        background-color:white;
-        font-size: 22px;
-        color: black;
-        text-align: center;
-    }
-    .baner-list{
-        width: 80%;
-        height: 380px;
-        display: flex;
-        margin: auto;
-        gap: 1.5%;
-        justify-content: center;
-    }
-    .baner-list div {
-        width: 19%;
-        height: 95%;
-        padding: .5%;
-    }
-    .baner-list div img {
-        width: 98%;
-        height: 80%;
-    }
-    .baner-list button {
-        width: 190px;
-        height: 45px;
-        border: 2px solid black;
-        background-color: white;
-        margin-left: 10%;
-    }
-    .search-promo{
-        padding: 20px;
-    }
-    .search-promo .html-slot-container {
-        width: 820px;
-        margin: auto;
-    }
-    #banner-2 {
-        margin-left: 14%;
-    }
-</style>
 <body>
     <h1>Hand Soap & Sanatizer</h1>
     <div id="banner">
@@ -73,23 +14,24 @@
     </div>
     <div class="breaker">
 		<h4 aria-level="2">Shop By Category</h4>
+        <hr>
 	</div>
     <div class="baner-list">
         <div>
             <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwcc6461c6/images/Fall2021/sp_foaming-soap-viz-nav_fa1_0_vn.jpg?yocs=o_s_">
-            <button>FOMAING SOAP</button>
+            <button id="btn-fom">SHOAP</button>
         </div>
         <div>
             <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw7d6f6904/images/Fall2021/sp_gel-soap-viz-nav_fa1_0_vn.jpg?yocs=o_s_">
-            <button>GELL SOAPS</button>
+            <button id="btn-gell">HOME FRAGRENCE</button>
         </div>
         <div>
             <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwcd08357d/images/Fall2021/sn_sani-viz-nav_fa1_0_vn.jpg?yocs=o_s_">
-            <button>ALL SANATIZER</button>
+            <button id="btn-sanatizer">BODY CARE</button>
         </div>
         <div>
             <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw572f2a94/images/Fall2021/sp_all-soap-viz-nav_fa1_0_vn.jpg?yocs=o_s_">
-            <button>ALL SOAP</button>
+            <button id="btn-all">ALL SOAP</button>
         </div>
     </div>
     <div id="banner-2">
@@ -113,5 +55,6 @@
 
 		</div>
 	</div>
+    <script src="handSoapSanatizer.js"></script>
 </body>
 </html>
