@@ -1,0 +1,135 @@
+#head {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 60%;
+    /* background-color: black; */
+}
+#head h1 {
+    font-family: Trade Gothic W01 Light,Arial,sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+#head div  {
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+}
+#head div button:hover{
+    background-color: black;
+    color: red;
+    transform: scale(1.5);
+}
+#filter {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5%;
+    justify-content: center;
+    height: 75px;
+    background: linear-gradient(to right, #7856FF 0%, #65B9FF 100%);
+    font-size: 17px;
+}
+#filter div {
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+    border: 1px solid white;
+    padding-top: 7px;
+    text-align: center;
+    font-weight: lighter;
+    background-color:white;
+    color: black;
+}
+#filter div:hover{
+    background: transparent;
+}
+#grid{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    margin-left: 12%;
+    gap: 1.5%;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+}
+#grid div {
+    width: 25%;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+#grid div img {
+    width: 170px;
+    height: 250px;
+    margin: auto;
+}
+#grid div img:hover{
+    transform: scale(1.1);
+}
+#grid div button {
+    width: 270px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+#grid div button:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
+#grid div h4 {
+    color:grey;
+    margin-top: 0px;
+    font-family: TradeGothicLTW05-Light,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: .875rem;
+}
+#grid div h2 {
+    color: goldenrod;
+    margin-top: 0px;
+    font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
+}
+#grid div h3 {
+    font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+#grid div h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0rem;
+    margin-top: 0px;
+    color: orangered;
+}
+#grid div span {
+    display: flex;
+    justify-content: center;
+}
+#grid div span .checked {
+    color: orange;
+}
+#grid div span span {
+    margin-top: -8px;
+    margin-left: 5px;
+    padding-top: 0px;
+    /* background-color: orangered; */
+}
+#flex {
+    display: flex;
+}
+#flex img {
+    width: 13%;
+    height: 500px;
+    margin-top: 100px;
+}
+#head div div {
+    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+}
+#head div div:hover{
+    transform: scale(1.05);
+}
