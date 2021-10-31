@@ -1,1 +1,11 @@
-https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/en_US/v1635414384794/images/Christmas2021/christmas_logo_site.svg?yocs=o_s_
+LOGO:     https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/en_US/v1635414384794/images/Christmas2021/christmas_logo_site.svg?yocs=o_s_
+
+
+USER:  https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwae347297/images/svg-icons/UI-MyAccount.svg?yocs=o_s_
+
+
+SEARCH:   https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw38807d78/images/svg-icons/UI-Search-v2.svg?yocs=o_s_
+
+
+
+CART:https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1635500765187/images/svg-icons/UI-AddToBag.svg?yocs=o_s_

@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+}
+.header {
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: baseline;
+  padding: 0.5rem;
+  gap: 1rem;
+  border-bottom: 3px solid rgb(231, 226, 226);
+}
+.header > div {
+  flex-basis: 16%;
+  text-align: center;
+}
+.link {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+  font-size: 15px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+/*end*/
+.nav {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.empty {
+  flex-basis: 30%;
+}
+.logo {
+  flex-basis: 30%;
+  text-align: center;
+  /* width:200px; */
+}
+#logo {
+  width: 76%;
+}
+.search {
+  flex-basis: 25%;
+  border: 1px solid black;
+  display: flex;
+}
+.search > input {
+  border: none;
+  width: 90%;
+  height: 90%;
+}
+#searchIcon {
+  width: 20px;
+}
+.userLogo,
+.cart {
+  flex-basis: 7.5%;
+  text-align: center;
+}
+.userLogo > img,
+.cart > img {
+  width: 30%;
+}
+/* hfjhfjhfjh */
+.newAndNow,
+.bodycare,
+.handSoapSanatizer,
+.gift,
+.homeFragrance {
+  display: flex;
+}
+.parent,
+.childs,
+.static {
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px; */
+  /* flex-basis: 33%; */
+}
+.parent {
+  flex-basis: 15%;
+  margin-left: 20px;
+}
+.childs {
+  flex-basis: 20%;
+  color: rgb(99, 93, 93);
+  margin-left: 15px;
+}
+.static {
+  flex-basis: 65%;
+  text-align: left;
+}
+.static > div {
+  cursor: pointer;
+  margin-left: 15px;
+  color: rgb(99, 93, 93);
+}
+.static > div:hover {
+  color: blue;
+}
+.parent > div,
+.childs > div,
+.static > div {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.child {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  border-right: 1px solid rgb(122, 118, 118);
+}
+.child > div {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.child > div:hover {
+  color: blue;
+  font-weight: bold;
+}
+.pp {
+  display: none;
+}
+.link:hover {
+  border-bottom: 3px solid rgb(43, 92, 226);
+}
+.parent > div:hover {
+  border-left: 3px solid rgb(43, 92, 226);
+  color: blue;
+  cursor: pointer;
+}
+.container {
+  background: rgb(247, 244, 244);
+  position: sticky;
+  top: 30px;
+}
+.header {
+  position: sticky;
+  top: 5px;
+}
