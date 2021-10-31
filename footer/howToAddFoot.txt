@@ -1,0 +1,6 @@
+How to add footer into your page?
+=> very easy just make a script tag on page then ->
+   follow : 
+     <script src="footer/footIntegrate.js"></script>
+
+     add the above line on your page all set..
