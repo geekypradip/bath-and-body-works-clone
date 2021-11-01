@@ -22,7 +22,7 @@
       "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
       "overview": "Celebrate the holiday season with this classic Bath & Body Works Christmas favorite! Our dermatologist-tested Shower Gel combines nourishing vitamin E and aloe to create a rich, bubbly lather. Gentle and non-drying, it's the perfect daily cleanser to leave skin feeling fresh and clean!\n",
       "id": 6,
-      "rating": 4.5
+      "rating": 4
     },
     {
       "name": "PURE WONDER",
@@ -34,7 +34,7 @@
       "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
       "overview": "Celebrate the holiday season with this classic Bath & Body Works Christmas favorite! Our dermatologist-tested Shower Gel combines nourishing vitamin E and aloe to create a rich, bubbly lather. Gentle and non-drying, it's the perfect daily cleanser to leave skin feeling fresh and clean!\n",
       "id": 7,
-      "rating": 4
+      "rating": 3
     },
     {
       "name": "WINTER CANDY APPLE",
@@ -46,7 +46,7 @@
       "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
       "overview": "Celebrate the holiday season with this classic Bath & Body Works Christmas favorite! Our dermatologist-tested Shower Gel combines nourishing vitamin E and aloe to create a rich, bubbly lather. Gentle and non-drying, it's the perfect daily cleanser to leave skin feeling fresh and clean!\n",
       "id": 8,
-      "rating": 3
+      "rating":2
     },
     {
       "name": "COTTON CANDY",
@@ -70,7 +70,7 @@
       "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
       "overview": "Celebrate the holiday season with this classic Bath & Body Works Christmas favorite! Our dermatologist-tested Shower Gel combines nourishing vitamin E and aloe to create a rich, bubbly lather. Gentle and non-drying, it's the perfect daily cleanser to leave skin feeling fresh and clean!\n",
       "id": 10,
-      "rating": 4.5
+      "rating": 4
     },
     {
       "name": "OLAY",
@@ -214,7 +214,7 @@
       "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
       "overview": "The gift that'll get a happy, healthy round of applause. It includes a PocketBac Hand Sanitizer (1 fl oz) and Hand Cream (1 fl oz) inside a small decorative gift box.\n",
       "id": 22,
-      "rating": 5
+      "rating":2
     },
     {
       "name": "RESTFUL MOON",
@@ -226,7 +226,7 @@
       "fragment": "Relax and unwind the body and mind with this essential oil blend of patchouli, sandalwood and vanilla\n",
       "overview": "Made with aloe and bamboo extract, this nourishing, fast-foaming body wash leaves skin feeling clean, soft and refreshed. Fragranced with natural essential oils and other natural fragrances.\n",
       "id": 23,
-      "rating": 3.5
+      "rating":3
     },
     {
       "name": "AWAKENING SUN",
@@ -250,7 +250,7 @@
       "fragment": "A wintry sweet treat of fresh vanilla bean, sugar cookies, warm caramel, whipped cream and snow-kissed musk\n",
       "overview": "Celebrate the holiday season with this classic Bath & Body Works Christmas favorite! Our dermatologist-tested Super Smooth Body Lotion provides 24 hours of nourishing moisture — guaranteed! Infused with shea butter, coconut oil and vitamin E, it absorbs quickly into skin, so it feels noticeably softer after use.\n",
       "id": 25,
-      "rating": 2.5
+      "rating":2
     },
     {
       "name": "TIS THE SEASON Gentle Foaming Hand Soap",
@@ -262,7 +262,7 @@
       "fragment": "A spiced holiday mix of red apple, ground cinnamon and clove\n",
       "overview": "Our Gentle Foaming Hand Soap with natural essential oils combines nourishing vitamin E with softening shea extract and aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.",
       "id": 26,
-      "rating": 5
+      "rating":4
     },
     {
       "name": "DETOLLE",
@@ -274,7 +274,7 @@
       "fragment": "FRAGRANCE\nEucalyptus oil clears the mind. Tea extract calms feelings of uncertainty.",
       "overview": "Our Gentle Foaming Hand Soap with natural essential oils combines nourishing vitamin E with softening shea extract and aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.",
       "id": 27,
-      "rating": 4
+      "rating":1
     },
     {
       "name": "PARK AVENUE",
@@ -298,7 +298,7 @@
       "fragment": "FRAGRANCE\nEucalyptus oil clears the mind. Tea extract calms feelings of uncertainty.",
       "overview": "Our Gentle Foaming Hand Soap with natural essential oils combines nourishing vitamin E with softening shea extract and aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.",
       "id": 29,
-      "rating": 5
+      "rating":3
     },
     {
       "name": "LUX INTENATIONAL ",
@@ -334,7 +334,7 @@
       "fragment": "FRAGRANCE\nEucalyptus oil clears the mind. Tea extract calms feelings of uncertainty.",
       "overview": "Our Gentle Foaming Hand Soap with natural essential oils combines nourishing vitamin E with softening shea extract and aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.",
       "id": 32,
-      "rating": 3.5
+      "rating":3
     },
     {
       "name": "EUCALYPTUS TEA ",
@@ -346,7 +346,7 @@
       "fragment": "FRAGRANCE\nEucalyptus oil clears the mind. Tea extract calms feelings of uncertainty.",
       "overview": "Our Gentle Foaming Hand Soap with natural essential oils combines nourishing vitamin E with softening shea extract and aloe to deliver a luxurious foam that washes hands clean of germs while taking care to maintain skin's natural moisture barrier. Traditional hand soaps are just as effective as anti-bacterial soaps when you wash for 20 seconds.*\n\n*According to FDA: There is currently no evidence that anti-bacterial soaps are any more effective at preventing illness than normal soap and water. See more at FDA.gov.",
       "id": 33,
-      "rating": 5
+      "rating":2
     },
     {
       "name": "CHRISTMAS CIDER",
@@ -358,7 +358,7 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 34,
-      "rating": 4
+      "rating":1
     },
     {
       "name": "FOG",
@@ -370,7 +370,7 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 35,
-      "rating": 4.5
+      "rating":4
     },
     {
       "name": "INSANCE STICK",
@@ -394,7 +394,7 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 37,
-      "rating": 4
+      "rating":1
     },
     {
       "name": "AXE",
@@ -406,7 +406,7 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 38,
-      "rating": 5
+      "rating":3
     },
     {
       "name": "COBRA",
@@ -418,7 +418,7 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 39,
-      "rating": 0
+      "rating":1
     },
     {
       "name": "NIVIA",
@@ -430,7 +430,7 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 40,
-      "rating": 3.5
+      "rating":3
     },
     {
       "name": "CHRISTMAS CIDER",
@@ -454,7 +454,7 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 42,
-      "rating": 4.5
+      "rating":3
     },
     {
       "name": "SNOW FOG",
@@ -466,19 +466,19 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 43,
-      "rating": 3.5
+      "rating":5
     },
     {
       "name": "BOLD",
       "category": "HOME FRAGRENCE",
       "subCategory": " 3-Wick Candles",
-      "price": 2550.5,
+      "price": 2650.50,
       "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.180/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3af24f16/crop/026291223_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
       "quantity": "14.5 oz / 411 g",
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 44,
-      "rating": 2.5
+      "rating":2
     },
     {
       "name": "MOGRA",
@@ -490,57 +490,175 @@
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 45,
-      "rating": 5
+      "rating":4
     },
     {
       "name": "OM NMHA SHIVAY",
       "category": "HOME FRAGRENCE",
       "subCategory": " 3-Wick Candles",
-      "price": 2005.5,
+      "price": 5.50,
       "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.180/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw97024b4a/crop/026361432_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
       "quantity": "14.5 oz / 411 g",
       "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
       "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
       "id": 46,
-      "rating": 1.5
-    }
-  ],
-  "profiles": [
-    {
-      "id": 1,
-      "firstName": "Suchita",
-      "lastName": "Salunkhe",
-      "email": "salunkhesuchita3@gmail.com",
-      "zipCode": "413315",
-      "phone": "9158735433",
-      "password": "Password@123"
+      "rating":1
     },
     {
-      "firstName": "sonali",
-      "lastName": "Salunkhe",
-      "email": "salunkhesonali3@gmail.com",
-      "zipCode": "413715",
-      "phone": "9167895433",
-      "password": "Password@321",
-      "id": 2
+      "name": "NIVEA",
+      "category": "MOISTURE",
+      "subCategory": " 3-Wick Candles",
+      "price": 25.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw872016c3/crop/026360441_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 47,
+      "rating":2
     },
     {
-      "firstName": "ajay",
-      "lastName": "salunkhe",
-      "email": "ajay@gmail.com",
-      "zipCode": "413304",
-      "phone": "1234567865",
-      "password": "ajay@123",
-      "id": 3
+      "name": "PONDS",
+      "category": "MOISTURE",
+      "subCategory": " 3-Wick Candles",
+      "price": 2205.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwebcc7c88/hires/026309173_alt_1.jpg?sh=413&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 48,
+      "rating":3
     },
     {
-      "firstName": "akshay",
-      "lastName": "salunkhe",
-      "email": "akshay@gmail.com",
-      "zipCode": "413315",
-      "phone": "6567890789",
-      "password": "Akshay@123",
-      "id": 4
+      "name": "LAKME",
+      "category": "MOISTURE",
+      "subCategory": " 3-Wick Candles",
+      "price": 2005.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw581d87ac/crop/026299194_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 49,
+      "rating":4
+    },
+    {
+      "name": "VASELINE",
+      "category": "MOISTURE",
+      "subCategory": " 3-Wick Candles",
+      "price": 65.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw31d1be46/crop/026311406_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 50,
+      "rating":1
+    },
+    {
+      "name": "VEET",
+      "category": "MOISTURE",
+      "subCategory": " 3-Wick Candles",
+      "price": 95.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf04b4e6d/crop/026300695_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 51,
+      "rating":2
+    },
+    {
+      "name": "LOTUS",
+      "category": "MOISTURE",
+      "subCategory": " 3-Wick Candles",
+      "price": 105.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw242bdcc5/crop/026311405_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 52,
+      "rating":1
+    },
+    {
+      "name": "AMIL",
+      "category": "AROMA THERAPY",
+      "subCategory": " 3-Wick Candles",
+      "price": 1105.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0a8b325a/crop/026347806_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 53,
+      "rating":4
+    },
+    {
+      "name": "SUN",
+      "category": "AROMA THERAPY",
+      "subCategory": " 3-Wick Candles",
+      "price": 50.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcf92bfb4/crop/026347804_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 54,
+      "rating":5
+    },
+    {
+      "name": "OLAY GLOW",
+      "category": "AROMA THERAPY",
+      "subCategory": " 3-Wick Candles",
+      "price": 405.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7b4bad83/crop/026347812_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 55,
+      "rating":3
+    },
+    {
+      "name": "MOOV",
+      "category": "AROMA THERAPY",
+      "subCategory": " 3-Wick Candles",
+      "price": 505.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf01e9d91/crop/026311417_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 56,
+      "rating":4
+    },
+    {
+      "name": "DETOLE",
+      "category": "AROMA THERAPY",
+      "subCategory": " 3-Wick Candles",
+      "price": 105.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6d77318c/crop/026159541_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 57,
+      "rating":2
+    },
+    {
+      "name": "SAVLON",
+      "category": "AROMA THERAPY",
+      "subCategory": " 3-Wick Candles",
+      "price": 205.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf01e9d91/crop/026311417_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 58,
+      "rating":5
+    },
+    {
+      "name": "LIFE BOY",
+      "category": "AROMA THERAPY",
+      "subCategory": " 3-Wick Candles",
+      "price": 105.50,
+      "productImage": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6d77318c/crop/026159541_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      "quantity": "14.5 oz / 411 g",
+      "fragment": "Mulled Cinnamon, Crushed Clove, Creamy Nutmeg, Simmering Cider with Natural Essential Oils\n",
+      "overview": "This warm, spiced scent makes singing carols, watching Christmas movies and baking holiday treats that much more festive. Candle comes topped with a decorative lid.\n\nWhy you'll love our 3-wick candles:\n\nMade with natural essential oils\nBeautiful room-filling fragrance\nAmazing quality from beginning to end\nEvenly melting soy wax blend\nEvery candle is 100% guaranteed",
+      "id": 59,
+      "rating":1
     }
   ]
 }

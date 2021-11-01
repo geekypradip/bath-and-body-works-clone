@@ -1,135 +1,520 @@
-#head {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    gap: 60%;
-    /* background-color: black; */
+@media screen and (min-width:1200px) {
+    #head {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 50%;
+        /* background-color: black; */
+    }
+    #head h1 {
+        font-family: cursive;
+        font-weight: 400;
+        color: #333;
+        text-shadow: 0 0 3px grey, 0 0 5px white;
+        font-size: 35px;
+    }
+    #head div  {
+        display: flex;
+        gap: 50px;
+        height: 30px;
+        width: 60%;
+        margin-top: 20px;
+    }
+    #head div button{
+        background-color: black;
+        width: 150px;
+        height: 30px;
+        color: red;
+        border: none;
+        border-radius: 4px;
+        margin-top: 1.9%;
+    }
+    #head div button:hover{
+        transform: scale(1.03);
+    }
+    #filter {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        gap: 5%;
+        justify-content: center;
+        height: 75px;
+        background: linear-gradient(to right, #7856FF 0%, #65B9FF 100%);
+        font-size: 17px;
+        box-shadow:  5px 5px 5px rgba(68,68,68,0.6);
+    }
+    #filter div {
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 180px;
+        height: 25px;
+        border: 1px solid white;
+        padding-top: 7px;
+        text-align: center;
+        font-weight: lighter;
+        background-color:white;
+        color: black;
+    }
+    #filter div:hover{
+        background: transparent;
+    }
+    #grid{
+        width: 80%;
+        display: grid;
+        margin: auto;
+        margin-left: 12%;
+        gap: 1.5%;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 50px;
+    }
+    #grid div {
+        width: 25%;
+        height: 500px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    #grid div img {
+        width: 135px;
+        height: 252px;
+        margin: auto;
+    }
+    #grid div img:hover{
+        transform: scale(1.1);
+    }
+    #grid div button {
+        width: 270px;
+        height: 40px;
+        background-color: black;
+        color: white;
+    }
+    #grid div button:hover{
+        background-color: #F2F2F2;
+        color: black;
+    }
+    #grid div h4 {
+        color:grey;
+        margin-top: 0px;
+        font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+        font-size: 1rem;
+        line-height: .5rem;
+    }
+    #grid div h2 {
+        color: goldenrod;
+        margin-top: 0px;
+        font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
+        line-height: .1rem;
+    }
+    #grid div h3 {
+        font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
+        line-height: .1rem;
+        font-size: 1rem;
+    }
+    #grid div h5 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 0.1rem;
+        margin-top: 0px;
+        color: orangered;
+    }
+    #grid div span {
+        display: flex;
+        justify-content: center;
+    }
+    #grid div span .checked {
+        color: orange;
+    }
+    #grid div span span {
+        margin-top: -8px;
+        margin-left: 5px;
+        padding-top: 0px;
+        /* background-color: orangered; */
+    }
+    #flex {
+        display: flex;
+    }
+    #flex img {
+        width: 13%;
+        height: 500px;
+        margin-top: 100px;
+    }
+    #head div div {
+        margin-top: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    #head div div:hover{
+        transform: scale(1.05);
+        border: 1px solid red;
+    }
+    #slider{
+        height: 400px;
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+    #slider img {
+        max-width: 100%;
+    }
+    #slider-1 img {
+        max-width: 100%;
+    }
+    #slider-1{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #head-1{
+        font-size: 40px;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+        color:lightskyblue;
+        text-shadow: 0 0 3px grey, 0 0 5px white;
+    }
 }
-#head h1 {
-    font-family: Trade Gothic W01 Light,Arial,sans-serif;
-    font-weight: 400;
-    color: #333;
+@media screen and (max-width:1200px)
+                and (min-width:700px) {
+    #head {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 30%;
+        /* background-color: black; */
+    }
+    #head h1 {
+        font-family: cursive;
+        font-weight: 300;
+        color: #333;
+        text-shadow: 0 0 3px grey, 0 0 5px white;
+        font-size: 25px;
+    }
+    #head div  {
+        display: flex;
+        gap: 50px;
+        height: 30px;
+        width: 60%;
+        margin-top: 20px;
+    }
+    #head div button{
+        background-color: black;
+        width: 150px;
+        height: 30px;
+        color: red;
+        border: none;
+        border-radius: 4px;
+        margin-top: 1.9%;
+    }
+    #head div button:hover{
+        transform: scale(1.001);
+    }
+    #filter {
+        display: flex;
+        width: 100%;
+        gap: 1.5%;
+        margin-left: 1.5%;
+        justify-content: center;
+        height: 75px;
+        background: linear-gradient(to right, #7856FF 0%, #65B9FF 100%);
+        font-size: 17px;
+        box-shadow:  5px 5px 5px rgba(68,68,68,0.6);
+    }
+    #filter div {
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 180px;
+        height: 25px;
+        border: 1px solid white;
+        padding-top: 7px;
+        text-align: center;
+        font-weight: lighter;
+        background-color:white;
+        color: black;
+    }
+    #filter div:hover{
+        background: transparent;
+    }
+    #grid{
+        width: 80%;
+        display: grid;
+        justify-content: space-around;
+        gap: 1%;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 50px;
+        margin-left: 15%;
+    }
+    #grid div {
+        width: 25%;
+        height: 500px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    #grid div img {
+        width: 135px;
+        height: 252px;
+        margin: auto;
+    }
+    #grid div img:hover{
+        transform: scale(1.1);
+    }
+    #grid div button {
+        width: 170px;
+        height: 40px;
+        background-color: black;
+        color: white;
+    }
+    #grid div button:hover{
+        background-color: #F2F2F2;
+        color: black;
+    }
+    #grid div h4 {
+        color:grey;
+        margin-top: 0px;
+        font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+        font-size: 1rem;
+        line-height: .5rem;
+    }
+    #grid div h2 {
+        color: goldenrod;
+        margin-top: 0px;
+        font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
+        line-height: .1rem;
+    }
+    #grid div h3 {
+        font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
+        line-height: .1rem;
+        font-size: 1rem;
+    }
+    #grid div h5 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 0.1rem;
+        margin-top: 0px;
+        color: orangered;
+    }
+    #grid div span {
+        display: flex;
+        justify-content: center;
+    }
+    #grid div span .checked {
+        color: orange;
+    }
+    #grid div span span {
+        margin-top: -8px;
+        margin-left: 5px;
+        padding-top: 0px;
+        /* background-color: orangered; */
+    }
+    #flex {
+        display: flex;
+    }
+    #flex img {
+        width: 20%;
+        height: 500px;
+        margin-top: 100px;
+    }
+    #head div div {
+        margin-top: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    #head div div:hover{
+        transform: scale(1.05);
+        border: 1px solid red;
+    }
+    #slider{
+        height: 400px;
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+    #slider img {
+        max-width: 100%;
+    }
+    #slider-1 img {
+        max-width: 100%;
+    }
+    #slider-1{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #head-1{
+        font-size: 40px;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+        color:lightskyblue;
+        text-shadow: 0 0 3px grey, 0 0 5px white;
+    }
 }
-#head div  {
-    display: flex;
-    gap: 50px;
-    height: 30px;
-    width: 200px;
-    margin-top: 20px;
+@media screen and (max-width:700px)
+                and (min-width:400px) {
+    #head {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        gap: 1.5%;
+        /* background-color: black; */
+    }
+    #head h1 {
+        font-family: cursive;
+        font-weight: 300;
+        color: #333;
+        text-shadow: 0 0 3px grey, 0 0 5px white;
+        font-size: 25px;
+    }
+    #head div  {
+        display: flex;
+        gap: 30px;
+        height: 30px;
+        width: 50%;
+        margin-top: 20px;
+    }
+    #head div button{
+        background-color: black;
+        width: 170px;
+        height: 30px;
+        color: red;
+        border: none;
+        border-radius: 4px;
+        margin-top: 1.9%;
+    }
+    #head div button:hover{
+        transform: scale(1.001);
+    }
+    #filter {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1.5%;
+        margin-left: 1.5%;
+        /* height: 75px; */
+        background: linear-gradient(to right, #7856FF 0%, #65B9FF 100%);
+        font-size: 17px;
+        box-shadow:  5px 5px 5px rgba(68,68,68,0.6);
+    }
+    #filter div {
+        border-radius: 5px;
+        width: 280px;
+        height: 25px;
+        border: 1px solid white;
+        padding-top: 7px;
+        text-align: center;
+        font-weight: lighter;
+        background-color:white;
+        color: black;
+        margin: auto;
+        margin-top: 1.5%;
+    }
+    #filter div:hover{
+        background: transparent;
+    }
+    #grid{
+        width: 80%;
+        display: grid;
+        justify-content: space-around;
+        gap: 1%;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 50px;
+        margin-left: 15%;
+    }
+    #grid div {
+        width: 75%;
+        height: 500px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    #grid div img {
+        width: 185px;
+        height: 272px;
+        margin: auto;
+    }
+    #grid div img:hover{
+        transform: scale(1.1);
+    }
+    #grid div button {
+        width: 198px;
+        height: 40px;
+        background-color: black;
+        color: white;
+    }
+    #grid div button:hover{
+        background-color: #F2F2F2;
+        color: black;
+    }
+    #grid div h4 {
+        color:grey;
+        margin-top: 0px;
+        font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+        font-size: 1rem;
+        line-height: .5rem;
+    }
+    #grid div h2 {
+        color: goldenrod;
+        margin-top: 0px;
+        font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
+        line-height: .1rem;
+    }
+    #grid div h3 {
+        font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
+        line-height: .1rem;
+        font-size: 1rem;
+    }
+    #grid div h5 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 0.1rem;
+        margin-top: 0px;
+        color: orangered;
+    }
+    #grid div span {
+        display: flex;
+        justify-content: center;
+    }
+    #grid div span .checked {
+        color: orange;
+    }
+    #grid div span span {
+        margin-top: -8px;
+        margin-left: 5px;
+        padding-top: 0px;
+        /* background-color: orangered; */
+    }
+    #flex {
+        display: flex;
+    }
+    #flex img {
+        width: 23%;
+        height: 500px;
+        margin-top: 100px;
+    }
+    #head div div {
+        margin-top: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    #head div div:hover{
+        transform: scale(1.05);
+        border: 1px solid red;
+    }
+    #slider{
+        height: 400px;
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+    #slider img {
+        max-width: 100%;
+    }
+    #slider-1 img {
+        max-width: 100%;
+    }
+    #slider-1{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #head-1{
+        font-size: 30px;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+        color:lightskyblue;
+        text-shadow: 0 0 3px grey, 0 0 5px white;
+    }
 }
-#head div button:hover{
-    background-color: black;
-    color: red;
-    transform: scale(1.5);
-}
-#filter {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    gap: 5%;
-    justify-content: center;
-    height: 75px;
-    background: linear-gradient(to right, #7856FF 0%, #65B9FF 100%);
-    font-size: 17px;
-}
-#filter div {
-    margin-top: 15px;
-    border-radius: 5px;
-    width: 180px;
-    height: 25px;
-    border: 1px solid white;
-    padding-top: 7px;
-    text-align: center;
-    font-weight: lighter;
-    background-color:white;
-    color: black;
-}
-#filter div:hover{
-    background: transparent;
-}
-#grid{
-    width: 80%;
-    display: grid;
-    margin: auto;
-    margin-left: 12%;
-    gap: 1.5%;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: 50px;
-}
-#grid div {
-    width: 25%;
-    height: 500px;
-    display: grid;
-    justify-content: center;
-    text-align: center;
-}
-#grid div img {
-    width: 170px;
-    height: 250px;
-    margin: auto;
-}
-#grid div img:hover{
-    transform: scale(1.1);
-}
-#grid div button {
-    width: 270px;
-    height: 40px;
-    background-color: black;
-    color: white;
-}
-#grid div button:hover{
-    background-color: #F2F2F2;
-    color: black;
-}
-#grid div h4 {
-    color:grey;
-    margin-top: 0px;
-    font-family: TradeGothicLTW05-Light,Arial,sans-serif;
-    font-size: 1rem;
-    line-height: .875rem;
-}
-#grid div h2 {
-    color: goldenrod;
-    margin-top: 0px;
-    font-family: TradeGothicLTW05-Bold,Arial,sans-serif;
-}
-#grid div h3 {
-    font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
-    line-height: 1rem;
-    font-size: 1rem;
-}
-#grid div h5 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 0rem;
-    margin-top: 0px;
-    color: orangered;
-}
-#grid div span {
-    display: flex;
-    justify-content: center;
-}
-#grid div span .checked {
-    color: orange;
-}
-#grid div span span {
-    margin-top: -8px;
-    margin-left: 5px;
-    padding-top: 0px;
-    /* background-color: orangered; */
-}
-#flex {
-    display: flex;
-}
-#flex img {
-    width: 13%;
-    height: 500px;
-    margin-top: 100px;
-}
-#head div div {
-    margin-top: 0px;
-    width: 50px;
-    height: 50px;
-}
-#head div div:hover{
-    transform: scale(1.05);
-}
+
