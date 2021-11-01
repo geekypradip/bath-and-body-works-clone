@@ -1,6 +1,6 @@
 const home = document.getElementById("logo");
         home.addEventListener('click',()=>{
-            window.location.assign("\handSoapSanatizer.html")
+            window.history.back(-1);
         })
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
@@ -8,8 +8,10 @@ const home = document.getElementById("logo");
         var count = 1;
         const next = document.getElementById("next");
         next.addEventListener('click',()=>{
+            if(count!=2){
             count++;
             fn()
+            }
         })
         const prev = document.getElementById("prev");
         prev.addEventListener('click',()=>{
@@ -19,6 +21,8 @@ const home = document.getElementById("logo");
             }
             return
         })
+        const title = document.getElementById("title");
+        title.innerText = product;
         const fn = async ()=>{
             let data = await fetch(`http://localhost:3000/product?category=${product}&_limit=9&_page=${count}`)
             let res = await data.json();
@@ -40,7 +44,12 @@ const home = document.getElementById("logo");
                 let rating = document.createElement("span");
                 // let icon = document.createElement("span").className = "fa fa-star checked";
                 // rating.innerText = `Rating of Product ${id.rating}`;
-                rating.innerHTML = `<h5>Rating of Product ${id.rating}</h5><span class="fa fa-star checked"></span>`;
+                let star = `<span class="fa fa-star checked"></span>`;
+                let str = "";
+                for(var i=0;i<id.rating;i++){
+                    str += star;
+                }
+                rating.innerHTML = `<h5>Rating:</h5>${str}`;
                 img.src = id.productImage;
                 price.innerText = `$${id.price}`;
                 // Subctagory.innerText = id.subCategory;
@@ -81,6 +90,34 @@ const home = document.getElementById("logo");
             console.log(res)
             createElement(res)
         }
+        var arr = ["https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwc6414a5e/images/Fall2021/xcat_sms_0_fa2_hb_v2_1.jpg?yocs=s_","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw3741fbbb/images/Fall2021/xcat_sms_0_fa2_hb_v2_4.jpg?yocs=s_"];
+        var i = 0;
+        var fun = ()=>{
+            var carasol = document.getElementById("slider");
+            carasol.innerHTML = "";
+            if(i==arr.length){
+                i=0;
+            }
+            let img = document.createElement("img");
+            img.src = arr[i];
+            carasol.append(img);
+            i++;
+        }
+        setInterval(fun,500)
+        var arr1 = ["https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw1587deae/images/Christmas2021/cndl_titbi_595singlewicks_c1_hm_to_03.jpg?yocs=s_","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw05b82738/images/Christmas2021/cndl_titbi_595singlewicks_c1_hm_to_01.jpg?yocs=s_","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.181/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw6f423d99/images/Christmas2021/cndl_titbi_595singlewicks_c1_hm_to_02.jpg?yocs=s_"];
+        var j = 0;
+        var funa= ()=>{
+            let carasol = document.getElementById("slider-1");
+            carasol.innerHTML = "";
+            if(j==arr1.length){
+                j=0;
+            }
+            let img = document.createElement("img");
+            img.src = arr1[j];
+            carasol.append(img);
+            j++;
+        }
+        setInterval(funa,500)
         nameBtn.addEventListener('click',sortName)
         rateBtn.addEventListener('click',sortRate)
         brandBtn.addEventListener('click',sortBrand)
