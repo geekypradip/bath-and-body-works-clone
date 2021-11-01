@@ -47,8 +47,8 @@
           <div class="content-form">
             <form>
                 <div class="mb-3">
-                    <label for="FirstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="FirstName" >
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" >
                   </div>
                   <div class="mb-3">
                     <label for="lastName" class="form-label">Last Name</label>
@@ -76,7 +76,7 @@
                     <input type="password" class="form-control" id="Password1">
                   </div>
                   <div class="center"><a>Privacy Policy</a></div>
-                <button type="submit" class="btn btn-dark btn-create-account">CREATE ACCOUNT</button>
+                <button type="submit" class="btn btn-dark btn-create-account" id="submit-btn">CREATE ACCOUNT</button>
                 <div class="center"><a>Questions?</a>
                 <p>We’re here for you! Call us at 1-800-756-5005.</p>
                 </div>
@@ -87,6 +87,48 @@
     </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
+        <!-- <script src="./navbar/integratenav.js"></script> -->
+        <!-- <script src="./footer/footIntegrate.js"></script> -->
+        <script>
+          var btn = document.getElementById('submit-btn');
+
+          function handleSubmit(e){
+            e.preventDefault();
+            var fname = document.getElementById('firstName').value;
+            var lname = document.getElementById('lastName').value;
+            var email = document.getElementById('email').value;
+            var zip = document.getElementById('code').value;
+            var phone = document.getElementById('phone').value;
+            var password = document.getElementById('Password1').value;
+
+            var payload = {
+              firstName: fname,
+              lastName:lname,
+              email:email,
+              zipCode:zip,
+              phone:phone,
+              password:password
+            }
+
+            fetch(" http://localhost:3000/profiles", {
+   
+              method: "POST",
+              body: JSON.stringify(payload),
+              headers: {
+              "Content-type": "application/json; charset=UTF-8"
+              }
+            }).then(
+              console.log((res)=>{
+                alert('you have signed up sucessfully !')
+              })
+            ).catch((err)=>{
+              console.log(err)
+            })
+          }
+
+          btn.addEventListener('click',handleSubmit);
+
+        
+        </script>
 </body>
 </html>
