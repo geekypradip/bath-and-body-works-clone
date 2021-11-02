@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>view product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .root{
+            width:70%;
+            margin:auto;
+        }
+        .topImageHolder>img{
+            width: 100%;
+        }
+        .topImageHolder{
+            border-bottom:1px dotted #000 ;
+            margin-top: 20px;
+        }
+        .mainContent{
+            display:flex;
+            padding-top: 10px;
+        }
+        .mainContent>div{
+            flex-basis: 50%;
+        }
+        .faboriteIconHolder,.bigProductImageHolder{
+            text-align: right;
+        }
+        .faboriteIconHolder>img{
+            width: 40px;
+           
+        }
+        
+        #productImage_big{
+            width: 40%;
+            height:40%;
+        }
+        .smallImageHolder{
+            text-align: center;
+        }
+        #productImage_small{
+            width:8%;
+            height:8%;
+        }
+        #productImage_small:hover{
+            border: 1px dotted rgb(187, 180, 180);
+        }
+        .lightText{
+            color:rgb(102, 98, 98)
+        }
+        .detailsSide{
+            padding-left: 20px;
+        }
+        .producttitle{
+            font-size: 20px;
+            color: rgb(46, 44, 44);
+        }
+        .rating{
+            color:rgb(255, 196, 0);
+            padding-top: 15px;
+            font-size: 20px;
+        }
+        .productPrice,.How_do_you_want_to_receive_it{
+            font-weight: bold;
+            padding-top:10px;
+        }
+        .productQuantity{
+            padding-top: 5px;
+        }
+        .offerText{
+            padding-top: 10px;
+            color:rgb(216, 29, 29);
+            padding-bottom: 20px;
+        }
+        .shippig{
+            padding-top: 10px;
+            display: flex;
+        }
+        .shippig>span{
+     font-weight: bold;
+        }
+        .shippig>span,.shippig>input,.shippig>i{
+        margin:5px
+        }
+        .shippig>i{
+            color:blue;
+        }
+        .Available{
+            color:green;
+            font-weight: 100;
+            font-size: 13px;
+            padding-left: 50px;
+        }
+        .blue{
+            color:rgb(0, 81, 255)
+        }
+        #pink{
+            color:rgb(243, 31, 190);
+        }
+        .setStore{
+            font-size: 12px;
+            text-decoration: underline;
+            padding-left: 50px;
+            padding-bottom: 20px;
+        }
+        .cartQuantity{
+            display: flex;
+            padding-top:5px;
+            padding-bottom:5px;
+        }
+        .cartQuantity>div{
+            background-color:rgb(238, 235, 235);
+            margin: 0.2%;
+            padding: 15px;
+        }
+        .cartQuantity>div:hover{
+            background:#000;
+            color:aliceblue;
+        }
+        #cartBtn{
+            background:#000;
+            font-size: 12px;
+            color:aliceblue
+        }
+        #cartBtn:hover{
+            background-color:rgb(238, 235, 235);
+            color:#000;
+        }
+        #cartValue:hover{
+            background-color:rgb(255, 250, 250);
+            color:#000;
+        }
+        .temp{
+            width:10%;
+        }
+        .fragranceHolder,.overviewHolder{
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(182, 176, 176);
+        }
+        .fragrance,.overview{
+            display: flex;
+        }
+        .fragrance:hover,.overview:hover{
+            border-bottom: 1px dotted black;
+        }
+        .fragrance>div,.overview>div{
+            flex-basis: 50%;
+        }
+        .fragrance>div:nth-child(2),.overview>div:nth-child(2){
+            text-align: center;
+            font-size: 25px;
+        }
+        .fragranceData,.overviewData{
+            width:70%;
+           padding-left: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="root">
+      <div class="topImageHolder">
+          <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.183/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw82db98b9/images/Christmas2021/xcat_ratingsreviews_0_C1_ghsp.jpg?yocs=s_" alt="">
+      </div>
+      <div class="mainContent">
+          <div class="imageSide">
+            <div class="faboriteIconHolder">
+                <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.183/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1635759958849/images/svg-icons/PDP-Wishlist-1.svg?yocs=o_s_" onmouseover="changeColorpink()" onmouseout="changeTodefault()" alt="" id="fabIcon">
+            </div>
+            <div class="bigProductImageHolder">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" id="productImage_big">
+            </div>
+            <div class="smallImageHolder">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" id="productImage_small">
+            </div>
+        </div>
+        <div class="detailsSide">
+            <div class="producttitle">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" class="temp">
+            </div>
+            <div class="productCategory lightText">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" class="temp">
+            </div>
+            <div class="rating">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" class="temp">
+            </div>
+            <div class="productPrice">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" class="temp">
+            </div>
+            <div class="productQuantity lightText">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" class="temp">
+            </div>
+            <div class="offerText">
+                Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free
+            </div>
+            <hr>
+            <div class="How_do_you_want_to_receive_it">
+                How do you want to receive it?
+                
+            </div>
+            <div class="shippig">
+                <input type="checkbox">
+                <i class="fa fa-truck" aria-hidden="true"></i>
+                <span>Ship it</span>
+            </div>
+            <div class="Available">
+                Available
+            </div>
+            <div class="shippig">
+                <input type="checkbox">
+                <i class="fa fa-map-marker" id="pink" aria-hidden="true"></i>
+                <span class="blue">Pick Up in Store
+                </span>
+            </div>
+            <div class="setStore lightText">
+               Set Store
+            </div>
+            <hr>
+            <div class="cartQuantity">
+                <div id="cartDrc">-</div>
+                <div id="cartValue">1</div>
+                <div id="cartInc">+</div>
+                <div id="cartBtn">ADD TO BAG</div>
+            </div>
+            <hr>
+            <div class="fragranceHolder">
+                 <div class="fragrance">
+                    <div>FRAGRANCE</div>
+                    <div><i class="fa fa-angle-down no" aria-hidden="true" id="fc"></i></div>
+                </div>
+                <div class="fragranceData lightText">
+                    <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" class="temp">
+                </div>
+            </div>
+            <div class="overviewHolder">
+                <div class="overview">
+                   <div>OVERVIEW</div>
+                   <div><i class="fa fa-angle-down no" aria-hidden="true" id="oc"></i></div>
+               </div>
+               <div class="overviewData lightText">
+                <img src="https://c.tenor.com/5o2p0tH5LFQAAAAi/hug.gif" alt="" class="temp">
+               </div>
+           </div>
+           <div class="mediaIcons">
+               
+           </div>
+        </div>
+     </div>
+
+</div>
+<script>
+    //js for static data
+let changeColorpink=()=>{
+document.getElementById("fabIcon").src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.183/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1635759958849/images/svg-icons/PDP-Wishlist-3.svg?yocs=o_s_";
+}
+let changeTodefault=()=>{
+    document.getElementById("fabIcon").src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.183/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1635759958849/images/svg-icons/PDP-Wishlist-1.svg?yocs=o_s_";
+}
+document.getElementById('cartDrc').onclick=function(){controler(-1)}
+document.getElementById('cartInc').onclick=function(){controler(1)}
+function controler(v){
+    let value=parseInt(document.getElementById('cartValue').innerText) 
+if(v===-1&&value===1)
+return;
+value+=v;
+document.getElementById('cartValue').innerText=value;
+}
+document.getElementById('fc').addEventListener('click',(e)=>{
+    viceVersa(e)
+});
+document.getElementById('oc').addEventListener('click',(e)=>{
+    
+    viceVersa(e)
+})
+let viceVersa=(e)=>{
+  console.log(e.target.className);
+  if(e.target.className==="fa fa-angle-down no"){
+       e.target.className="fa fa-angle-up yes";
+       if(e.target.id==="oc"){
+            document.querySelector('.overviewData').style.display="block";
+            document.getElementById('fc').className="fa fa-angle-down no";
+            document.querySelector('.fragranceData').style.display="none";
+       }
+       
+        else{
+            document.querySelector('.fragranceData').style.display="block";
+            document.getElementById('oc').className="fa fa-angle-down no";
+            document.querySelector('.overviewData').style.display="none";
+        }
+        
+  }
+ 
+  else{
+    e.target.className="fa fa-angle-down no";
+    if(e.target.id==="oc")
+    document.querySelector('.overviewData').style.display="none";
+    else
+    document.querySelector('.fragranceData').style.display="none";
+  }
+ 
+//   console.log(document.querySelector('.fragranceData').style.display=="block")
+}
+</script>
+    <script type="module" src="viewProduct.js"></script>
+    <script type="module" src="./footer/footIntegrate.js"></script>
+    <script type="module" src="./navbar/integratenav.js"></script>
+</body>
+</html>
