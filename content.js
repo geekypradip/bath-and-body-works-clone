@@ -37,7 +37,6 @@ const home = document.getElementById("logo");
                 container.innerHTML = "";
             for(let id of data ){
                 let subContainer = document.createElement("div");
-                subContainer.id=id.id;//added by pradip
                 let title = document.createElement("h3");
                 let ctagory = document.createElement("h4");
                 // let Subctagory = document.createElement("p2");
@@ -56,10 +55,8 @@ const home = document.getElementById("logo");
                 rating.innerHTML = `<h5>Rating:</h5>${str}`;
                 img.src = id.productImage;
                /*start*/
-                img.onclick= (e)=>{
-                    var perent=e.target.parentNode
-                    var productId=perent.getAttribute("id");
-                   localStorage.setItem("productId",productId)
+                img.onclick= ()=>{
+                   localStorage.setItem("productId",id.id)
                     // createUi(productId);
                     window.location.href="./viewProduct.html"
 
