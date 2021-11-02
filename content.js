@@ -1,3 +1,4 @@
+// import createUi from "./viewProduct.js"
 const home = document.getElementById("logo");
         home.addEventListener('click',()=>{
             window.history.back(-1);
@@ -30,16 +31,19 @@ const home = document.getElementById("logo");
             // console.log(product)
             createElement(res)
         }
+       
         function createElement(data){
             let container = document.getElementById("grid");
                 container.innerHTML = "";
             for(let id of data ){
                 let subContainer = document.createElement("div");
+                subContainer.id=id.id;//added by pradip
                 let title = document.createElement("h3");
                 let ctagory = document.createElement("h4");
                 // let Subctagory = document.createElement("p2");
                 let price = document.createElement("h2");
                 let img = document.createElement("img");
+                img.setAttribute("onclick","idpassing()")
                 let btn = document.createElement("button");
                 let rating = document.createElement("span");
                 // let icon = document.createElement("span").className = "fa fa-star checked";
@@ -51,6 +55,16 @@ const home = document.getElementById("logo");
                 }
                 rating.innerHTML = `<h5>Rating:</h5>${str}`;
                 img.src = id.productImage;
+               /*start*/
+                img.onclick= (e)=>{
+                    var perent=e.target.parentNode
+                    var productId=perent.getAttribute("id");
+                   localStorage.setItem("productId",productId)
+                    // createUi(productId);
+                    window.location.href="./viewProduct.html"
+
+                   }
+                   /*end*/
                 price.innerText = `$${id.price}`;
                 // Subctagory.innerText = id.subCategory;
                 ctagory.innerText = id.category;
@@ -59,9 +73,11 @@ const home = document.getElementById("logo");
                 if(title != null && ctagory != null && price != null ){
                     subContainer.append(img,title,ctagory,price,rating,btn)
                     container.append(subContainer)
-                }
+                }  
             }
+            
         }
+       
         const priceBtn = document.getElementById("sortPrice");
         const nameBtn = document.getElementById("sortName");
         const brandBtn = document.getElementById("sortBrand");
