@@ -84,8 +84,10 @@ let createRecomend=(products,viewingProduct)=>{
             document.querySelector('.recomendProductsHolder').append(recomendCard);
             // console.log("hii")
             recomendCard.addEventListener('click',()=>{
+                window.scrollBy(0,-1000)
                      createUi(products[i]);
-                     localStorage.setItem("productId",products[i].id)
+                     localStorage.setItem("productId",products[i].id);
+                    //  window.location.href="./viewProduct.html"
               })
         }
     }
