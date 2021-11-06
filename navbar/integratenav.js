@@ -1,13 +1,15 @@
 let link=document.createElement('link');
 link.rel="stylesheet";link.href="navbar/dontTouch/nav.css"
-document.head.append(link)
+let ilink=document.createElement('link');
+ilink.rel="stylesheet";ilink.href="https://fonts.googleapis.com/icon?family=Material+Icons"
+document.head.append(link,ilink)
 let content=document.createElement('div');
 content.innerHTML=`<div class="nav">
 <div class="empty"></div>
 <div class="logo"> <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/en_US/v1635414384794/images/Christmas2021/christmas_logo_site.svg?yocs=o_s_" alt="Logo" id="logo"></div>
 
 <div class="search">
-<input type="text" placeholder="search your product">
+<input id="tog" type="text" placeholder="search your product">
 <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw38807d78/images/svg-icons/UI-Search-v2.svg?yocs=o_s_" alt="search" id="searchIcon">
 </div>
 <div class="userLogo">
@@ -20,33 +22,33 @@ content.innerHTML=`<div class="nav">
 <div class="header">
 <div class="dropdown" data-dropdown>
      
-<div class="link" onmouseover="patanehi(0,this)">NEW & NOW</div>
+<div class="link" onmouseover="patanehi(0,this)"><a href="/home.html">NEW & NOW</a></div>
 
 </div>
 
 <div class="dropdown" data-dropdown>
 
-<div class="link" onmouseover="patanehi(1,this)">BODY CARE</div>
+<div class="link" onmouseover="patanehi(1,this)"><a href="/bodycare.html">BODY CARE</a></div>
 
 </div>
 
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi(2,this)">HAND SOAPS $ SANITIZERS</div>
+<div class="link" onmouseover="patanehi(2,this)"><a href="/handSoapSanatizer.html"> HAND SOAPS $ SANITIZERS</a></div>
 </div>
 <div class="dropdown" data-dropdown>
 
-<div class="link" onmouseover="patanehi(3,this)">HOME FRAGRANCE</div>
+<div class="link" onmouseover="patanehi(3,this)"><a href="/bodycare.html"> HOME FRAGRANCE </a></div>
 
 </div>
 
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi(4,this)">GIFT</div>
+<div class="link" onmouseover="patanehi(4,this)"><a href="gifts.html">GIFT</a></div>
 </div>
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi('empty',this)">TOP OFFERS</div>
+<div class="link" onmouseover="patanehi('empty',this)"><a href="gifts.html">TOP OFFERS</a></div>
 </div>
 </div>
 <div class="container">
@@ -256,6 +258,8 @@ content.innerHTML=`<div class="nav">
     </div>
 
    </div>
+</div>
+<div id="dis">
 </div>`
 
 document.body.insertBefore(content,document.body.firstChild);
