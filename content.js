@@ -1,9 +1,10 @@
 // import createUi from "./viewProduct.js"
 import addProductToCart from "./manageCart.js"
-const home = document.getElementById("logo");
-        home.addEventListener('click',()=>{
-            window.history.back(-1);
-        })
+// const home = document.getElementById("logo");
+//         home.addEventListener('click',()=>{
+//             window.history.back(-1);
+//         })
+        // import addProductToCart from "./manageCart.js"        
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const product = urlParams.get('query')
