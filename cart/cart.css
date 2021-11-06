@@ -84,3 +84,74 @@
   color: rgb(13, 13, 105);
   font-weight: bold;
 }
+.cartfeathersHeading {
+  display: flex;
+  padding: 7px;
+  background: rgb(202, 195, 195);
+}
+.cartfeathersHeading > .item,
+.cartfeathersHeading > .totalprice {
+  flex-basis: 40%;
+  display: flex;
+}
+.cartfeathersHeading > .price,
+.cartfeathersHeading > .qty {
+  flex-basis: 10%;
+}
+.cartfeathersHeading > .totalprice > div {
+  width: 50%;
+  margin-left: auto;
+}
+/* .control {
+  display: flex;
+} */
+
+.item {
+  display: flex;
+}
+.item > div {
+  flex-basis: 50%;
+}
+
+.bg {
+  background: #fff;
+  border-bottom: 1px solid green;
+  padding-bottom: 17px;
+}
+.flex {
+  display: flex;
+}
+.flex > div {
+  margin: 2%;
+}
+.im {
+  width: 30%;
+  height: 20%;
+}
+.prodImg {
+  background-size: cover;
+  text-align: center;
+}
+.prodCategory {
+  color: rgb(141, 131, 131);
+  font-size: 12px;
+}
+.promotion {
+  font-size: 14px;
+  color: green;
+  text-decoration: underline;
+  padding-top: 12px;
+}
+.avalaible {
+  font-size: 10px;
+  color: green;
+}
+.remove > div {
+  color: red;
+  background: rgb(238, 228, 228);
+  padding: 5px;
+}
+.remove > div:hover {
+  background: rgb(63, 61, 61);
+  color: #fff;
+}
