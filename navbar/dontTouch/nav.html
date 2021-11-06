@@ -16,7 +16,7 @@
         <div class="logo"> <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/-/Sites-BathAndBodyWorks-Library/en_US/v1635414384794/images/Christmas2021/christmas_logo_site.svg?yocs=o_s_" alt="Logo" id="logo"></div>
        
 <div class="search">
-    <input type="text" placeholder="search your product">
+    <input type="text"id="tog" placeholder="search your product">
 <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw38807d78/images/svg-icons/UI-Search-v2.svg?yocs=o_s_" alt="search" id="searchIcon">
 </div>
 <div class="userLogo">
@@ -266,7 +266,40 @@
         
            </div>
 </div>
+<div id="dis"></div>
   <section>enter your code here</section>
+  <!-- <script>
+    var tog = document.getElementById("tog");
+    const fnDe = async ()=>{
+        let input = tog.value;
+        let data = await fetch(`http://localhost:3000/product?q=${input}`)
+        let res = await data.json();
+        console.log(res)
+        createDeb(res)
+        // console.log(product)
+    }
+    function deBouncer(fn,delay){
+        let id;
+        return ()=>{
+            id && clearTimeout(id);
+            id = setTimeout(()=>fn(),delay);
+        }
+    }
+    function createDeb(data){
+        let dis = document.getElementById("dis");
+        dis.innerHTML = "";
+        for(let id of data){
+            let img = document.createElement("img");
+            img.src = id.productImage;
+            let div = document.createElement("div");
+            div.innerText = id.name;
+            let span = document.createElement("span");
+            span.innerText = id.price;
+            dis.append(img,div,span)
+        }
+    }
+    tog.addEventListener("keydown",deBouncer(fnDe,1000)); -->
+    <!-- </script> -->
 <script src="navbar.js">
 </script>
 </body>

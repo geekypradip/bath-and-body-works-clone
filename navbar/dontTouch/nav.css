@@ -146,3 +146,54 @@ body {
   text-decoration: none;
   color: black;
 }
+#dis div {
+  width: 25%;
+  display: flex;
+  gap: 15px;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  padding: 1%;
+}
+#dis div span {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+}
+#dis div span .amt {
+  color: goldenrod;
+  margin-top: 10px;
+}
+#dis div img {
+  width: 29%;
+  height:129px;
+}
+#dis {
+  width: 100%;
+  /* margin:  auto; */
+  margin-top: -5.1%;
+  position: absolute;
+  background-color:white;
+  border: 1.5px solid black;
+  /* display: flex; */
+  justify-content: center;
+  /* display: grid;
+  justify-content: center; */
+}
+#dis i {
+  color: red;
+}
+#dis button {
+  height:35px;
+  width:200px;
+  margin-top:7.5%;
+  background-color: grey;
+  color: white
+}
+#dis button:hover{
+  height:35px;
+  width:200px;
+  margin-top:7.5%;
+  background-color: black;
+  color: white
+}

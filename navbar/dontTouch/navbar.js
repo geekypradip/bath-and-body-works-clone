@@ -61,6 +61,59 @@ let patanehi=(v,e)=>{
          }
     }
 }
+var tog = document.getElementById("tog");
+var count = 1;
+        const fnDe = async ()=>{
+            let input = tog.value;
+            let data = await fetch(`http://localhost:3000/product?q=${input}&_limit=4&_page=${1}`)
+            let res = await data.json();
+            console.log(res)
+            createDeb(res)
+            // console.log(product)
+        }
+        function deBouncer(fn,delay){
+            let id;
+            return ()=>{
+                id && clearTimeout(id);
+                id = setTimeout(()=>fn(),delay);
+            }
+        }
+        function createDeb(data){
+            let dis = document.getElementById("dis");
+            dis.innerHTML = "";
+            let nextBtn = document.createElement("button");
+            nextBtn.innerText = ">>";
+            nextBtn.className = "next";
+            for(let id of data){
+                let div = document.createElement("div");
+                let img = document.createElement("img");
+                img.src = id.productImage;
+                let span2 = document.createElement("span");
+                let span = document.createElement("span");
+                span.innerText = id.name;
+                let span1 = document.createElement("span");
+                span1.innerText = `$${id.price}`;
+                span1.className = "amt";
+                span2.append(span,span1)
+                let span3 = document.createElement("span");
+                let button = document.createElement("button");
+                button.innerText = "View Product"
+                span3.innerHTML = `<i class="material-icons">favorite</i>`
+                div.append(img,span2,span3,button)
+                dis.append(div)
+            }
+            dis.style.display = "flex";
+            // dis.append(nextBtn)
+        }
+        tog.addEventListener("keydown",deBouncer(fnDe,1000))
+        function check() {
+            let display = document.getElementById("dis");
+            if( tog.value == ""){
+                display.style.display = "none";
+            }
+        }
+        const funCheck = setInterval(check,500)
+        window.addEventListener("load",funCheck)
 // let dis=(e)=>{
 //     document.querySelectorAll('.child')[e] 
 // }

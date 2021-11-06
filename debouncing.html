@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tog{
+            width: 80%;
+            height: 50px;
+            margin:  auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="search you item" id="tog"/>
+    <div id="dis"></div>
+    <script>
+        var tog = document.getElementById("tog");
+        const fnDe = async ()=>{
+            let input = tog.value;
+            let data = await fetch(`http://localhost:3000/product?q=${input}`)
+            let res = await data.json();
+            console.log(res)
+            createDeb(res)
+            // console.log(product)
+        }
+        function deBouncer(fn,delay){
+            let id;
+            return ()=>{
+                id && clearTimeout(id);
+                id = setTimeout(()=>fn(),delay);
+            }
+        }
+        function createDeb(data){
+            let dis = document.getElementById("dis");
+            dis.innerHTML = "";
+            for(let id of data){
+                let img = document.createElement("img");
+                img.src = id.productImage;
+                let div = document.createElement("div");
+                div.innerText = id.name;
+                let span = document.createElement("span");
+                span.innerText = id.price;
+                dis.append(img,div,span)
+            }
+        }
+        tog.addEventListener("keydown",deBouncer(fnDe,1000))
+    </script>
+</body>
+</html>
