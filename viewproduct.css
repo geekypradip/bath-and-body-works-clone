@@ -1,0 +1,254 @@
+.root {
+  width: 70%;
+  margin: auto;
+}
+.topImageHolder > img {
+  width: 100%;
+}
+.topImageHolder {
+  border-bottom: 1px dotted #000;
+  margin-top: 20px;
+}
+.mainContent {
+  display: flex;
+  padding-top: 10px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3%;
+}
+.mainContent > div {
+  flex-basis: 50%;
+}
+.faboriteIconHolder,
+.bigProductImageHolder {
+  text-align: right;
+}
+.faboriteIconHolder > img {
+  width: 40px;
+}
+
+#productImage_big {
+  width: 40%;
+  height: 40%;
+}
+.smallImageHolder {
+  text-align: center;
+}
+#productImage_small {
+  width: 8%;
+  height: 8%;
+}
+#productImage_small:hover {
+  border: 1px dotted rgb(187, 180, 180);
+}
+.lightText {
+  color: rgb(102, 98, 98);
+}
+.detailsSide {
+  padding-left: 20px;
+}
+.producttitle {
+  font-size: 20px;
+  color: rgb(46, 44, 44);
+}
+.rating {
+  color: rgb(255, 196, 0);
+  padding-top: 15px;
+  font-size: 20px;
+}
+.productPrice,
+.How_do_you_want_to_receive_it {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.productQuantity {
+  padding-top: 5px;
+}
+.offerText {
+  padding-top: 10px;
+  color: rgb(216, 29, 29);
+  padding-bottom: 20px;
+}
+.shippig {
+  padding-top: 10px;
+  display: flex;
+}
+.shippig > span {
+  font-weight: bold;
+}
+.shippig > span,
+.shippig > input,
+.shippig > i {
+  margin: 5px;
+}
+.shippig > i {
+  color: blue;
+}
+.Available {
+  color: green;
+  font-weight: 100;
+  font-size: 13px;
+  padding-left: 50px;
+}
+.blue {
+  color: rgb(0, 81, 255);
+}
+#pink {
+  color: rgb(243, 31, 190);
+}
+.setStore {
+  font-size: 12px;
+  text-decoration: underline;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.cartQuantity {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cartQuantity > div {
+  background-color: rgb(238, 235, 235);
+  margin: 0.2%;
+  padding: 15px;
+}
+.cartQuantity > div:hover {
+  background: #000;
+  color: aliceblue;
+}
+#cartBtn {
+  background: #000;
+  font-size: 12px;
+  color: aliceblue;
+}
+#cartBtn:hover {
+  background-color: rgb(238, 235, 235);
+  color: #000;
+}
+#cartValue:hover {
+  background-color: rgb(255, 250, 250);
+  color: #000;
+}
+.temp {
+  width: 10%;
+}
+.fragranceHolder,
+.overviewHolder {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(182, 176, 176);
+}
+.fragrance,
+.overview {
+  display: flex;
+}
+.fragrance:hover,
+.overview:hover {
+  border-bottom: 1px dotted black;
+}
+.fragrance > div,
+.overview > div {
+  flex-basis: 50%;
+}
+.fragrance > div:nth-child(2),
+.overview > div:nth-child(2) {
+  text-align: center;
+  font-size: 25px;
+}
+.fragranceData,
+.overviewData {
+  width: 70%;
+  padding-left: 20px;
+  display: none;
+}
+.mediaIcons {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  padding-top: 30px;
+}
+.mediaIcons > div {
+  flex-basis: 25%;
+  text-align: center;
+}
+.mediaIcons > div > i {
+  background: grey;
+  padding: 6px;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+.mediaIcons > div:nth-child(1) > i:hover {
+  background: #4267b2;
+}
+.mediaIcons > div:nth-child(2) > i:hover {
+  background: #1da1f2;
+}
+.mediaIcons > div:nth-child(3) > i:hover {
+  background: #8a3ab9;
+}
+.mediaIcons > div:nth-child(4) > i:hover {
+  background: rgb(214, 48, 19);
+}
+.recomendsection > h2 {
+  text-align: center;
+}
+.recomendProductsHolder {
+  overflow: auto;
+  display: flex;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.recomendProductsHolder::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.recomendProductsHolder {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.recomendCard {
+  /* width: 300px; */
+  margin: 2%;
+  padding: 3%;
+}
+.recomendCard {
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.recomendCard:hover {
+  box-shadow: 5px 5px 5px rgba(13, 13, 14, 0.2);
+}
+.poster > img {
+  width: 50%;
+  cursor: pointer;
+}
+.poster > img:hover {
+  width: 51%;
+}
+.recoProdName {
+  font-weight: bold;
+}
+.recoProdcat {
+  font-size: 10px;
+}
+.recoOffer {
+  font-size: 12px;
+  color: rgb(202, 29, 29);
+}
+.scroller {
+  display: flex;
+}
+.scroller > div {
+  flex-basis: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+.scroller > div > i {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(14, 13, 13, 0.473);
+  color: #ffff;
+}
+.scroller > div > i:hover {
+  background-color: #000;
+}

@@ -2,6 +2,16 @@
   display: flex;
   width: 90%;
   margin: auto;
+  overflow: auto;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.footer_first::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.footer_first {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 .footer_first > div {
   flex-basis: 15%;
