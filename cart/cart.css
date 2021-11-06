@@ -1,0 +1,86 @@
+#back {
+  font-size: 20px;
+}
+.back {
+  font-size: 15px;
+  text-decoration: underline;
+  color: rgb(109, 106, 106);
+  padding-bottom: 20px;
+}
+.back:hover {
+  text-decoration: none;
+  color: #000;
+}
+.cartBagContainer {
+  width: 70%;
+  margin: auto;
+}
+.shoping_bag {
+  font-size: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000;
+  color: rgb(58, 56, 56);
+}
+.firstHeader {
+  display: flex;
+  padding-top: 10px;
+}
+.firstHeader > div {
+  flex-basis: 50%;
+}
+.firstHeader > div:nth-child(2) {
+  text-align: right;
+}
+.checkOutbtn {
+  background: green;
+  width: 25%;
+  text-align: center;
+  margin-left: auto;
+  color: #fff;
+  padding: 5px;
+  font-size: 100%;
+  display: flex;
+}
+.checkOutbtn > i,
+.checkOutbtn > span {
+  margin: 1%;
+  text-align: center;
+  font-size: 100%;
+}
+.secondHeading {
+  text-align: center;
+  background: rgb(231, 225, 225);
+  margin-top: 20px;
+  padding: 6px;
+  color: rgb(24, 23, 23);
+  font-weight: bold;
+}
+.thirdHeading {
+  padding: 5px;
+}
+.thirdHeading,
+.thirdHeading > div {
+  display: flex;
+}
+.thirdHeading > div {
+  flex-basis: 50%;
+}
+.side1 > i,
+.side1 > span {
+  margin: 2%;
+}
+.side2 > i,
+.side2 > span {
+  margin: 2%;
+}
+.pink {
+  color: rgb(219, 20, 53);
+}
+.side1 {
+  padding-left: 15%;
+  border-right: 3px solid rgb(194, 188, 188);
+}
+.blue_bold {
+  color: rgb(13, 13, 105);
+  font-weight: bold;
+}

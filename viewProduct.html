@@ -7,9 +7,71 @@
     <title>view product</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="viewproduct.css">
-    <style></style>
+    <style>
+        
+    </style>
 </head>
 <body>
+<!-- popup-->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="lightText popHading">IT’S IN THE BAG!</div>
+    <div class="mainContent">
+       <div class="imageSide bigProductImageHolder">
+           <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8b7dce57/hires/026371693.jpg?sh=471&yocs=o_s_" alt="" id="popImg">
+       </div>
+       <div class="detailsSide">
+         <div class="popTitle">
+          
+         </div>
+         <div class="popcategory lightText">
+            
+         </div>
+         <div class="popQuentity lightText">
+             
+         </div>
+         <div class="popPrice">
+           
+         </div>
+         <div class="popqvalue">
+        Quentity:1
+        </div>
+       </div> 
+    </div>
+    <div class="center">
+        <div class="shippig">
+        <i class="fa fa-truck" id="pink" aria-hidden="true"></i>
+        <span class="blue">Added for Shipping
+        </span>
+    </div>
+    </div>
+    <div class="setStore lightText">
+        Don’t worry! You can make changes to this option in your bag.
+     </div>
+     <div class="deceisionBtns">
+         <div>
+            <div class="continueShoping">
+                CONTINUE SHOPING
+            </div> 
+         </div>
+         <div>
+             <div class="gotoCart"> 
+                 VIEW BAG AND CHECKOUT
+             </div>
+            
+         </div>
+     </div>
+  </div>
+
+</div>
+
+<!-- popup end -->
+
     <div class="root">
       <div class="topImageHolder">
           <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.183/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw82db98b9/images/Christmas2021/xcat_ratingsreviews_0_C1_ghsp.jpg?yocs=s_" alt="">
@@ -118,6 +180,10 @@
          </div>
      </div>
  </div>
+ <div class="review">
+    <img src="./images/review.png" alt=""> 
+    <img src="./images/review1.png" alt="">
+ </div>
 </div>
 <script>
     //js for static data
@@ -127,50 +193,7 @@ document.getElementById("fabIcon").src="https://cdn-fsly.yottaa.net/5d669b394f1b
 let changeTodefault=()=>{
     document.getElementById("fabIcon").src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.183/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1635759958849/images/svg-icons/PDP-Wishlist-1.svg?yocs=o_s_";
 }
-document.getElementById('cartDrc').onclick=function(){controler(-1)}
-document.getElementById('cartInc').onclick=function(){controler(1)}
-function controler(v){
-    let value=parseInt(document.getElementById('cartValue').innerText) 
-if(v===-1&&value===1)
-return;
-value+=v;
-document.getElementById('cartValue').innerText=value;
-}
-document.getElementById('fc').addEventListener('click',(e)=>{
-    viceVersa(e)
-});
-document.getElementById('oc').addEventListener('click',(e)=>{
-    
-    viceVersa(e)
-})
-let viceVersa=(e)=>{
-  console.log(e.target.className);
-  if(e.target.className==="fa fa-angle-down no"){
-       e.target.className="fa fa-angle-up yes";
-       if(e.target.id==="oc"){
-            document.querySelector('.overviewData').style.display="block";
-            document.getElementById('fc').className="fa fa-angle-down no";
-            document.querySelector('.fragranceData').style.display="none";
-       }
-       
-        else{
-            document.querySelector('.fragranceData').style.display="block";
-            document.getElementById('oc').className="fa fa-angle-down no";
-            document.querySelector('.overviewData').style.display="none";
-        }
-        
-  }
- 
-  else{
-    e.target.className="fa fa-angle-down no";
-    if(e.target.id==="oc")
-    document.querySelector('.overviewData').style.display="none";
-    else
-    document.querySelector('.fragranceData').style.display="none";
-  }
- 
-//   console.log(document.querySelector('.fragranceData').style.display=="block")
-}
+</script>
 </script>
     <script type="module" src="viewProduct.js"></script>
     <script type="module" src="./footer/footIntegrate.js"></script>

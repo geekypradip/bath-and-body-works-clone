@@ -46,7 +46,8 @@
 .detailsSide {
   padding-left: 20px;
 }
-.producttitle {
+.producttitle,
+.popTitle {
   font-size: 20px;
   color: rgb(46, 44, 44);
 }
@@ -56,11 +57,14 @@
   font-size: 20px;
 }
 .productPrice,
-.How_do_you_want_to_receive_it {
+.How_do_you_want_to_receive_it,
+.popPrice,
+.popqvalue {
   font-weight: bold;
   padding-top: 10px;
 }
-.productQuantity {
+.productQuantity,
+.popQuentity {
   padding-top: 5px;
 }
 .offerText {
@@ -171,7 +175,7 @@
 }
 .mediaIcons > div > i {
   background: grey;
-  padding: 6px;
+  padding: 7px;
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
@@ -190,6 +194,10 @@
 }
 .recomendsection > h2 {
   text-align: center;
+}
+.recomendsection {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
 }
 .recomendProductsHolder {
   overflow: auto;
@@ -251,4 +259,88 @@
 }
 .scroller > div > i:hover {
   background-color: #000;
+}
+.review {
+  background-size: cover;
+}
+.review > img {
+  width: 100%;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.popHading {
+  border-bottom: 3px solid rgb(194, 184, 184);
+  padding-bottom: 10px;
+}
+#popImg {
+  width: 60%;
+  border: 1px dotted #000;
+}
+.center {
+  text-align: center;
+  margin: auto;
+  padding-left: 25%;
+}
+.deceisionBtns {
+  display: flex;
+}
+.deceisionBtns > div {
+  flex-basis: 50%;
+  text-align: center;
+}
+.deceisionBtns > div > div {
+  font-size: 9px;
+  font-weight: bold;
+  border: 1px solid rgb(211, 209, 209);
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 7px;
+}
+.gotoCart {
+  background: rgb(7, 7, 7);
+  color: rgb(243, 243, 243);
+}
+.gotoCart:hover {
+  background: rgb(255, 252, 252);
+  color: rgb(8, 8, 8);
+}
+.continueShoping:hover {
+  background: rgb(7, 7, 7);
+  color: rgb(243, 243, 243);
 }
