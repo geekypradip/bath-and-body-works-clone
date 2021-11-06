@@ -1,4 +1,5 @@
 // import createUi from "./viewProduct.js"
+import addProductToCart from "./manageCart.js"
 const home = document.getElementById("logo");
         home.addEventListener('click',()=>{
             window.history.back(-1);
@@ -67,6 +68,12 @@ const home = document.getElementById("logo");
                 ctagory.innerText = id.category;
                 title.innerText = id.name;
                 btn.innerText = "Add To Bage";
+                btn.onclick=()=>{
+                    let redit = addProductToCart(id.id,1)
+                    if(redit){
+                        alert("opps alredy in cart")
+                    }
+                }
                 if(title != null && ctagory != null && price != null ){
                     subContainer.append(img,title,ctagory,price,rating,btn)
                     container.append(subContainer)

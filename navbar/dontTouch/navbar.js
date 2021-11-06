@@ -81,9 +81,9 @@ var count = 1;
         function createDeb(data){
             let dis = document.getElementById("dis");
             dis.innerHTML = "";
-            let nextBtn = document.createElement("button");
-            nextBtn.innerText = ">>";
-            nextBtn.className = "next";
+            // let nextBtn = document.createElement("button");
+            // nextBtn.innerText = ">>";
+            // nextBtn.className = "next";
             for(let id of data){
                 let div = document.createElement("div");
                 let img = document.createElement("img");
@@ -97,6 +97,11 @@ var count = 1;
                 span2.append(span,span1)
                 let span3 = document.createElement("span");
                 let button = document.createElement("button");
+                button.onclick=()=>{
+                    // alert("got it")
+                    localStorage.setItem("productId",id.id)
+                    window.location.href = "../viewProduct.html"
+                }
                 button.innerText = "View Product"
                 span3.innerHTML = `<i class="material-icons">favorite</i>`
                 div.append(img,span2,span3,button)
