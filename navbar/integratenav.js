@@ -16,39 +16,41 @@ content.innerHTML=`<div class="nav">
 <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwae347297/images/svg-icons/UI-MyAccount.svg?yocs=o_s_" alt="userLogo">
 </div>
 <div class="cart">
-<img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1635500765187/images/svg-icons/UI-AddToBag.svg?yocs=o_s_" alt="cartLogo">
+
+<img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.17f/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1635500765187/images/svg-icons/UI-AddToBag.svg?yocs=o_s_" alt="cartLogo" id="cartclick">
+
 </div>
 </div>
 <div class="header">
 <div class="dropdown" data-dropdown>
      
-<div class="link" onmouseover="patanehi(0,this)"><a href="/home.html">NEW & NOW</a></div>
+<div class="link" onmouseover="patanehi(0,this)"><a href="/hustle/home.html">NEW & NOW</a></div>
 
 </div>
 
 <div class="dropdown" data-dropdown>
 
-<div class="link" onmouseover="patanehi(1,this)"><a href="/bodycare.html">BODY CARE</a></div>
+<div class="link" onmouseover="patanehi(1,this)"><a href="/hustle/bodycare.html">BODY CARE</a></div>
 
 </div>
 
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi(2,this)"><a href="/handSoapSanatizer.html"> HAND SOAPS $ SANITIZERS</a></div>
+<div class="link" onmouseover="patanehi(2,this)"><a href="/hustle/handSoapSanatizer.html"> HAND SOAPS $ SANITIZERS</a></div>
 </div>
 <div class="dropdown" data-dropdown>
 
-<div class="link" onmouseover="patanehi(3,this)"><a href="/bodycare.html"> HOME FRAGRANCE </a></div>
+<div class="link" onmouseover="patanehi(3,this)"><a href="/hustle/bodycare.html"> HOME FRAGRANCE </a></div>
 
 </div>
 
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi(4,this)"><a href="gifts.html">GIFT</a></div>
+<div class="link" onmouseover="patanehi(4,this)"><a href="/hustle/gifts.html">GIFT</a></div>
 </div>
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi('empty',this)"><a href="gifts.html">TOP OFFERS</a></div>
+<div class="link" onmouseover="patanehi('empty',this)"><a href="/hustle/gifts.html">TOP OFFERS</a></div>
 </div>
 </div>
 <div class="container">

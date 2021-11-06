@@ -11,8 +11,10 @@
 <body>
     <div class="cartContainer">
         <div class="back">
+            <a href="/hustle/viewProduct.html">
             <i class="fa fa-angle-left" aria-hidden="true" id="back"></i>
             Back To Shoping
+        </a>
          </div>
          <div class="cartBagContainer">
              <div class="shoping_bag">
@@ -44,7 +46,143 @@
                     </span>
                  </div>
              </div>
+             <div class="cartfeathersHeading">
+                 <div class="item">ITEMS</div>
+                 <div class="price">PRICE</div>
+                <div class="qty">QTY</div>
+                <div class="totalprice">
+                   <div>TOTAL PRICE</div> 
+                </div>
+            </div>
+            <!-- <div class="cartfeathersHeading bg">
+                <div class="item">
+                    <div class="prodImg">
+                        <div><img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.187/on/demandware.static/-/Sites-master-catalog/default/dw772e0095/crop/026307893_crop.jpg?yocs=o_s_" alt="" class="im"></div>
+                        
+                    </div>
+                    <div class="proddeatis">
+                        <div class="prodtitle">PURE WONDER</div>
+                        <DIV class='prodCategory'>Fine fragrance Mist</DIV>
+                        <div class="promotion">promotional Deatis</div>
+                    </div>
+                </div>
+                <div class="price">$17.50</div>
+               <div class="qty">
+                   <div class="control">
+                   
+                   6
+                </div>
+                   <div class="avalaible">avalaible</div>
+               </div>
+               <div class="totalprice ">
+                   <div class="flex">
+                       <div>$105.00</div>
+                      <div class="remove">
+                          <div>X</div>
+                        </div>
+                </div>
+               </div>
+           </div> -->
          </div>
     </div>
+    <script>
+  let listofcartProd=[]
+  if(JSON.parse(localStorage.getItem('bathandshopcart'))){
+    listofcartProd=JSON.parse(localStorage.getItem('bathandshopcart'));
+    craeteCart(listofcartProd);
+  }
+  else
+  alert("cart is empty!")
+  
+function craeteCart(listofcartProd){
+      if(listofcartProd.length!==0){
+          for(let i in listofcartProd)
+          fetchui(listofcartProd[i])
+      }
+  }
+  function fetchui(obj){
+      let id=obj.id;
+      let quantity=obj.quantity;
+      fetch(`http://localhost:3000/product/${id}`)
+      .then((res)=>{return res.json()})
+     .then((res) => {console.log(res) ;createUi(res,quantity)})
+     .catch((error)=>console.log(error))
+  }
+  
+  function createUi(product,q){
+      let maincard=document.createElement('div');
+      maincard.className="cartfeathersHeading bg";
+      let item=document.createElement('div');
+      item.className='item';
+        let prodImagHolder=document.createElement('div');
+                prodImagHolder.className="prodImg";
+                let imgcaualdiv=document.createElement('div');
+                let img = document.createElement('img');
+                img.className="im";
+                img.src=product.productImage;
+                imgcaualdiv.append(img);prodImagHolder.append(imgcaualdiv);
+        let productDetails=document.createElement('div');
+                productDetails.className="proddeatis";
+                let productTitle=document.createElement('div');
+                productTitle.className='prodtitle';
+                productTitle.textContent=product.name;
+                let productCategory=document.createElement('div');
+                productCategory.className='prodCategory';
+                productCategory.textContent=product.category;
+                let promotion = document.createElement('div');
+                promotion.className='promotion';promotion.textContent='promotional details';
+                productDetails.append(productTitle,productCategory,promotion);
+     item.append(prodImagHolder,productDetails)
+     let price=document.createElement('div');
+     price.className='price';
+     price.textContent=`$ ${product.price}`;
+     let qty=document.createElement('div');
+     qty.className='qty';
+        let control=document.createElement('div');
+        control.className='control';
+        control.textContent=q;
+        let avalaible=document.createElement('div');
+        avalaible.className='avalaible';
+        avalaible.textContent='avalaible';
+    qty.append(control,avalaible);
+    let totalprice=document.createElement('div');
+    totalprice.className='totalprice';
+        let flex=document.createElement('div');
+        flex.className='flex';
+            let finalprice=document.createElement('div');
+            finalprice.textContent=`$ ${product.price*q}`;
+            let remove=document.createElement('div');
+            remove.className='remove';
+                let removeSign =document.createElement('div');
+                removeSign.textContent='X';
+                removeSign.addEventListener('click',(e)=>{
+                    console.log(product.id)
+                   
+                    e.target.parentNode.parentNode.parentNode.parentNode.remove() 
+                    deletecart(product.id)
+                })
+            remove.append(removeSign)
+                
+        flex.append(finalprice,remove)
+    totalprice.append(flex)
+maincard.append(item,price,qty,totalprice)
+document.querySelector('.cartBagContainer').append(maincard)
+  }
+function deletecart(deletequery){
+    let arr=[]
+    if(JSON.parse(localStorage.getItem('bathandshopcart'))){
+arr=JSON.parse(localStorage.getItem('bathandshopcart'));
+console.log(arr)
+            for(let index in arr){
+                if(arr[index].id==deletequery){
+                    console.log("matched")
+                    arr.splice(index,1)
+                    console.log("deleted")
+                }
+            }
+            localStorage.setItem("bathandshopcart",JSON.stringify(arr))
+    }
+}
+    </script>
 </body>
 </html>

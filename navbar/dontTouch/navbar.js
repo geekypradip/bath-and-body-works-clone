@@ -1,3 +1,6 @@
+document.getElementById('cartclick').onclick=()=>{
+ window.location.href="./cart/cart.html";
+}
 let n=(v)=>{
    let store= document.querySelectorAll('.newAndNow .child')
    for(let i in store){
@@ -100,7 +103,7 @@ var count = 1;
                 button.onclick=()=>{
                     // alert("got it")
                     localStorage.setItem("productId",id.id)
-                    window.location.href = "../viewProduct.html"
+                    window.location.href = "/hustle/viewProduct.html"
                 }
                 button.innerText = "View Product"
                 span3.innerHTML = `<i class="material-icons">favorite</i>`
@@ -123,3 +126,4 @@ var count = 1;
 //     document.querySelectorAll('.child')[e] 
 // }
 //                                    
+// 
