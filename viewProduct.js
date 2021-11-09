@@ -97,7 +97,7 @@ let viceVersa=(e)=>{
 btn.onclick = function() {
     let istExist=addProductToCart(localStorage.getItem("productId"),cartvalue)
     if(istExist){
-            alert("product alreay in cart!")
+            alert("product alreay in cart! you can change product quantity on cart page")
         return;
     }
     modal.style.display = "block";

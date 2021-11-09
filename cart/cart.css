@@ -102,9 +102,18 @@
   width: 50%;
   margin-left: auto;
 }
-/* .control {
+.control {
   display: flex;
-} */
+}
+.control > div {
+  margin: 1%;
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(99, 95, 95);
+  color: #fff;
+  cursor: pointer;
+}
 
 .item {
   display: flex;
@@ -155,3 +164,117 @@
   background: rgb(63, 61, 61);
   color: #fff;
 }
+
+/* popup */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 5%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+#success {
+  z-index: 2;
+  background-color: rgb(10, 31, 23); /* Fallback color */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.popHading {
+  border-bottom: 3px solid rgb(194, 184, 184);
+  padding-bottom: 10px;
+}
+
+.deceisionBtns {
+  display: flex;
+}
+.deceisionBtns > div {
+  flex-basis: 50%;
+  text-align: center;
+}
+.deceisionBtns > div > div {
+  font-size: 9px;
+  font-weight: bold;
+  border: 1px solid rgb(211, 209, 209);
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 7px;
+}
+.proceed {
+  background: rgb(7, 7, 7);
+  color: rgb(243, 243, 243);
+}
+.proceed:hover {
+  background: rgb(255, 252, 252);
+  color: rgb(8, 8, 8);
+}
+.continueShoping:hover {
+  background: rgb(7, 7, 7);
+}
+.continueShoping > a {
+  text-decoration: none;
+}
+.continueShoping > a:hover {
+  color: rgb(243, 243, 243);
+}
+.form,
+.payment {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.form > div {
+  display: flex;
+  margin-top: 2%;
+}
+.addressLine > input {
+  border: none;
+  flex-basis: 50%;
+  border-bottom: 1px solid rgb(165, 202, 165);
+  margin: 1%;
+  padding: 2%;
+}
+.payment > div {
+  text-align: left;
+  margin: 10px;
+  border: 1px solid rgb(190, 187, 187);
+}
+#p {
+  color: green;
+  padding: 5px;
+  padding-top: 10px;
+  background: #d6cfcf;
+  text-align: center;
+}
+.payment {
+  display: flex;
+  flex-direction: column;
+}
+/* POPUP END */
