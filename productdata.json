@@ -706,6 +706,15 @@
       "phone": "6289763638",
       "password": "Masainikhil12@",
       "id": 5
+    },
+    {
+      "firstName": "pradip",
+      "lastName": "mandal",
+      "email": "pradip@gmail.com",
+      "zipCode": "12345",
+      "phone": "1234567890",
+      "password": "pradip12345",
+      "id": 6
     }
   ]
 }
