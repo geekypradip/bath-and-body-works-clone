@@ -18,6 +18,6 @@ Clone of https://www.bathandbodyworks.com
   
   NOTE: IF YOU USE DEPLOYED API SO YOU CAN SKIP THE ABOVE METHOD .. FOLLOW SOME EXTRA THINGS.<br/>
   1)DELETE ALL .json files ,<br/>
-  2) you have to change all api requests link beacuse we used local api .so you have to change all api requested link localhost:3000/products/ ->to https://bathandbodyworksserver.herokuapp.com/product/
-#snaps
-<img style="width:100px" src="https://github.com/geekypradip/bath-and-body-works-clone/blob/main/images/Screenshot%20from%202021-12-09%2022-07-30.png?raw=true" alt=""/>
+  2) you have to change all api requests link beacuse we used local api .so you have to change all api requested link localhost:3000/products/ ->to https://bathandbodyworksserver.herokuapp.com/product/ <br/>
+#snaps <br/>
+<img style="width:300px" src="https://github.com/geekypradip/bath-and-body-works-clone/blob/main/images/Screenshot%20from%202021-12-09%2022-07-30.png?raw=true" alt=""/>
