@@ -1,4 +1,4 @@
-# Hustle
+#bathandbodyworks
 Clone of https://www.bathandbodyworks.com
 
 "for deplyment we deploy our server on heroku and created sharable api `https://bathandbodyworksserver.herokuapp.com/product/` this is the deployed api link you can use on your projects for mock data.
