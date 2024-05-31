@@ -26,7 +26,7 @@ content.innerHTML = `<div class="nav">
 <div class="header">
 <div class="dropdown" data-dropdown>
 
-<div class="link" onmouseover="patanehi(0,this)"><a href="/">NEW & NOW</a></div>
+<div class="link" onmouseover="patanehi(0,this)"><a href="/index.html">NEW & NOW</a></div>
 
 </div>
 
