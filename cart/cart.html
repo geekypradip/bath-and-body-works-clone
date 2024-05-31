@@ -1,149 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cart</title>
-    <link rel="stylesheet" href="cart.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <!-- popup-->
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <div class="lightText popHading">ENTER YOUR ADDRESS AND CHOOSE PAYMENT METHOD</div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="lightText popHading">
+          ENTER YOUR ADDRESS AND CHOOSE PAYMENT METHOD
+        </div>
         <div class="form">
-            <div class="name addressLine">
-                <input type="text" placeholder="Enter first name">
-                <input type="text" placeholder="Enter last name">
-            </div>
-            <div class="addressLine">
-                <input type="text" placeholder="city">
-                <input type="text" placeholder="area">
-            </div>
-            <div class="addressLine">
-                <input type="text" placeholder="Landmark">
-                <input type="text" placeholder=" Area PIN">
-            </div>
-            <div class="addressLine">
-                <input type="text" placeholder="Phone">
+          <div class="name addressLine">
+            <input type="text" placeholder="Enter first name" />
+            <input type="text" placeholder="Enter last name" />
+          </div>
+          <div class="addressLine">
+            <input type="text" placeholder="city" />
+            <input type="text" placeholder="area" />
+          </div>
+          <div class="addressLine">
+            <input type="text" placeholder="Landmark" />
+            <input type="text" placeholder=" Area PIN" />
+          </div>
+          <div class="addressLine">
+            <input type="text" placeholder="Phone" />
 
-                <input type="radio" name="country">USA
-                <input type="radio" name="country">CANADA
-            </div>
+            <input type="radio" name="country" />USA
+            <input type="radio" name="country" />CANADA
+          </div>
         </div>
         <div class="payment">
-            <div id="finalprice"></div>
-            <DIV id="p">CHOOSE YOUR PAYMENT METHOD</DIV>
-            <div><input type="radio" name="payment">
-         CASH ON DELIVERY</div>
-         <div><input type="radio" name="payment">
-         DEBIT CARD/CREDIT CARD</div>
-         <div> <input type="radio" name="payment">
-         NET BANKING</div>
-        
-         
+          <div id="finalprice"></div>
+          <div id="p">CHOOSE YOUR PAYMENT METHOD</div>
+          <div><input type="radio" name="payment" /> CASH ON DELIVERY</div>
+          <div>
+            <input type="radio" name="payment" /> DEBIT CARD/CREDIT CARD
+          </div>
+          <div><input type="radio" name="payment" /> NET BANKING</div>
         </div>
-       <div class="deceisionBtns">
-           <div>
-              <div class="continueShoping">
-                <a href="/hustle/viewProduct.html">CONTINUE SHOPING</a>
-              </div> 
-           </div>
-           <div>
-               <div class="proceed"> 
-                 PROCEED
-               </div>
-              
-           </div>
-       </div>
+        <div class="deceisionBtns">
+          <div>
+            <div class="continueShoping">
+              <a href="/viewProduct.html">CONTINUE SHOPING</a>
+            </div>
+          </div>
+          <div>
+            <div class="proceed">PROCEED</div>
+          </div>
+        </div>
+      </div>
     </div>
-  
-  </div>
-  
-  <!-- popup end -->
-  <div id="success" class="modal">
 
-    <!-- Modal content -->
-    <div class="modal-content">
-    <div>CONGRATULATION! YOUR ORDER HAS BEEN PLACED</div>
-    <div style="text-align: center;">
-        <img src="https://mrhomez.in/wp-content/uploads/2020/11/tick.gif" alt="">
+    <!-- popup end -->
+    <div id="success" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div>CONGRATULATION! YOUR ORDER HAS BEEN PLACED</div>
+        <div style="text-align: center">
+          <img
+            src="https://mrhomez.in/wp-content/uploads/2020/11/tick.gif"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
-    </div>
-  
-  </div>
-
 
     <div class="cartContainer">
-        <div class="back">
-            <a href="/hustle/viewProduct.html">
-            <i class="fa fa-angle-left" aria-hidden="true" id="back"></i>
-            Back To Shoping
+      <div class="back">
+        <a href="/viewProduct.html">
+          <i class="fa fa-angle-left" aria-hidden="true" id="back"></i>
+          Back To Shoping
         </a>
-         </div>
-         <div class="cartBagContainer">
-             <div class="shoping_bag">
-                Shopping Bag
-             </div>
-             <div class="firstHeader">
-                 <div>
-                     ITEMS IN SHOPPING BAG
-                 </div>
-                 <div>
-                     <div class="checkOutbtn">
-                        <i class="fa fa-lock" aria-hidden="true"></i>
-                       <span>CHECKOUT</span> 
-                     </div>
-                 </div>
-             </div>
-             <div class="secondHeading">
-                YOUR SHIPPING AND PICKUP CHOICES
-             </div>
-             <div class="thirdHeading">
-                 <div class="side1">
-                    <i class="fa fa-truck" aria-hidden="true"></i>
-                    <span> <span class="blue_bold">18</span>  items added for <span class="blue_bold">Shipping</span> </span>
-                 </div>
-                 <div class="side2">
-                    <i class="fa fa-map-marker" class="pink" aria-hidden="true"></i>
-                    <span> <span class="pink">NEW!</span> <span class="blue_bold">PICK UP IN STORE</span>   <div>Get it ASAP! it's easy, fast & freee.</div> 
-                        <div>set Store</div>
-                    </span>
-                 </div>
-             </div>
-             <div class="cartfeathersHeading">
-                 <div class="item">ITEMS</div>
-                 <div class="price">PRICE</div>
-                <div class="qty">QTY</div>
-                <div class="totalprice">
-                   <div>TOTAL PRICE</div> 
-                </div>
+      </div>
+      <div class="cartBagContainer">
+        <div class="shoping_bag">Shopping Bag</div>
+        <div class="firstHeader">
+          <div>ITEMS IN SHOPPING BAG</div>
+          <div>
+            <div class="checkOutbtn">
+              <i class="fa fa-lock" aria-hidden="true"></i>
+              <span>CHECKOUT</span>
             </div>
-            
-         </div>
-         <div class="cartBagContainer">
-             <div class="firstHeader">
-            <div>
-                ITEMS IN SHOPPING BAG
-            </div>
-            <div>
-                <div class="checkOutbtn">
-                   <i class="fa fa-lock" aria-hidden="true"></i>
-                  <span>CHECKOUT</span> 
-                </div>
-            </div>
+          </div>
         </div>
-         </div>
-         
-         
+        <div class="secondHeading">YOUR SHIPPING AND PICKUP CHOICES</div>
+        <div class="thirdHeading">
+          <div class="side1">
+            <i class="fa fa-truck" aria-hidden="true"></i>
+            <span>
+              <span class="blue_bold">18</span> items added for
+              <span class="blue_bold">Shipping</span>
+            </span>
+          </div>
+          <div class="side2">
+            <i class="fa fa-map-marker" class="pink" aria-hidden="true"></i>
+            <span>
+              <span class="pink">NEW!</span>
+              <span class="blue_bold">PICK UP IN STORE</span>
+              <div>Get it ASAP! it's easy, fast & freee.</div>
+              <div>set Store</div>
+            </span>
+          </div>
+        </div>
+        <div class="cartfeathersHeading">
+          <div class="item">ITEMS</div>
+          <div class="price">PRICE</div>
+          <div class="qty">QTY</div>
+          <div class="totalprice">
+            <div>TOTAL PRICE</div>
+          </div>
+        </div>
+      </div>
+      <div class="cartBagContainer">
+        <div class="firstHeader">
+          <div>ITEMS IN SHOPPING BAG</div>
+          <div>
+            <div class="checkOutbtn">
+              <i class="fa fa-lock" aria-hidden="true"></i>
+              <span>CHECKOUT</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="cart.js"></script>
-</body>
+  </body>
 </html>
