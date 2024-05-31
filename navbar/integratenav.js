@@ -26,33 +26,33 @@ content.innerHTML = `<div class="nav">
 <div class="header">
 <div class="dropdown" data-dropdown>
 
-<div class="link" onmouseover="patanehi(0,this)"><a href="/index.html">NEW & NOW</a></div>
-
+<div class="link" onmouseover="patanehi(0,this)"><a href="/bath-and-body-works-clone/index.html">NEW & NOW</a></div>
+bath-and-body-works-clone/
 </div>
 
 <div class="dropdown" data-dropdown>
 
-<div class="link" onmouseover="patanehi(1,this)"><a href="/bodycare.html">BODY CARE</a></div>
-
-</div>
-
-
-<div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi(2,this)"><a href="/handSoapSanatizer.html"> HAND SOAPS $ SANITIZERS</a></div>
-</div>
-<div class="dropdown" data-dropdown>
-
-<div class="link" onmouseover="patanehi(3,this)"><a href="/bodycare.html"> HOME FRAGRANCE </a></div>
+<div class="link" onmouseover="patanehi(1,this)"><a href="/bath-and-body-works-clone/bodycare.html">BODY CARE</a></div>
 
 </div>
 
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi(4,this)"><a href="/gifts.html">GIFT</a></div>
+<div class="link" onmouseover="patanehi(2,this)"><a href="/bath-and-body-works-clone/handSoapSanatizer.html"> HAND SOAPS $ SANITIZERS</a></div>
+</div>
+<div class="dropdown" data-dropdown>
+
+<div class="link" onmouseover="patanehi(3,this)"><a href="/bath-and-body-works-clone/bodycare.html"> HOME FRAGRANCE </a></div>
+
+</div>
+
+
+<div class="dropdown" data-dropdown>
+<div class="link" onmouseover="patanehi(4,this)"><a href="/bath-and-body-works-clone/gifts.html">GIFT</a></div>
 </div>
 
 <div class="dropdown" data-dropdown>
-<div class="link" onmouseover="patanehi('empty',this)"><a href="/gifts.html">TOP OFFERS</a></div>
+<div class="link" onmouseover="patanehi('empty',this)"><a href="/bath-and-body-works-clone/gifts.html">TOP OFFERS</a></div>
 </div>
 </div>
 <div class="container">
